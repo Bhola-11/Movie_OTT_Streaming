@@ -1,0 +1,45 @@
+{% extends 'base.html' %}
+{% block title %}Content Moderation Queue — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 1000px; padding-top: 2rem;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+    <div>
+      <h1>Moderation Queue</h1>
+      <p>Review community reports and handle policy violations.</p>
+    </div>
+    <span class="badge badge-moderator">{{ reports|length }} Pending Items</span>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+    {% for report in reports %}
+      <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.5rem;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 0.75rem;">
+          <div>
+            <span class="badge badge-admin">{{ report.get_reason_display }}</span>
+            <span style="font-size: 0.8rem; color: var(--cv-text-muted); margin-left: 0.5rem;">Reported by {{ report.reporter.email }} • {{ report.created_at|timesince }} ago</span>
+          </div>
+        </div>
+
+        {% if report.review %}
+          <div style="background: rgba(255,255,255,0.03); border-radius: var(--cv-radius-sm); padding: 1rem; margin: 0.75rem 0; font-size: 0.9rem;">
+            <div style="font-weight: 600; color: #fff; margin-bottom: 0.25rem;">"{{ report.review.title }}" ({{ report.review.rating }}★)</div>
+            <p style="color: var(--cv-text-muted); font-size: 0.85rem;">{{ report.review.content }}</p>
+          </div>
+        {% endif %}
+
+        <form method="post" action="{% url 'moderation:resolve' report.pk %}" style="display: flex; gap: 1rem; margin-top: 1rem;">
+          {% csrf_token %}
+          <input type="text" name="notes" placeholder="Optional moderator decision note..." class="form-input" style="flex: 1;">
+          <button type="submit" name="action" value="RESOLVED" class="btn btn-primary btn-sm">Quarantine / Hide</button>
+          <button type="submit" name="action" value="DISMISSED" class="btn btn-secondary btn-sm">Dismiss Report</button>
+        </form>
+      </div>
+    {% empty %}
+      <div style="padding: 4rem; text-align: center; background: var(--cv-bg-surface); border-radius: var(--cv-radius-md); color: var(--cv-text-muted);">
+        The moderation queue is currently empty. Excellent community health!
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
