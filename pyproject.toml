@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "cineverse"
+version = "1.0.0"
+description = "Enterprise Movie & OTT Streaming Management Platform"
+authors = ["CineVerse Engineering <engineering@cineverse.io>"]
+license = "Proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.6"
+psycopg2-binary = "^2.9.9"
+reportlab = "^4.2.0"
+celery = "^5.4.0"
+redis = "^5.0.4"
+razorpay = "^1.4.1"
+gunicorn = "^22.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^9.1.1"
+pytest-django = "^4.14.0"
+pytest-cov = "^7.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

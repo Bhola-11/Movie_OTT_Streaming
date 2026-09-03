@@ -1,0 +1,26 @@
+{
+  "name": "cineverse-streaming-platform",
+  "version": "1.0.0",
+  "description": "Enterprise Movie & OTT Streaming Management Platform",
+  "main": "static/js/main.js",
+  "scripts": {
+    "build:css": "echo 'Building CineVerse OTT CSS assets...'",
+    "test": "pytest tests/"
+  },
+  "keywords": [
+    "ott",
+    "streaming",
+    "video-player",
+    "hls",
+    "django"
+  ],
+  "author": "CineVerse Media Engineering Team",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "hls.js": "^1.5.8"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
