@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% block title %}TV Shows & Web Series — CineVerse Streaming{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 2rem;">
+  <div style="margin-bottom: 2.5rem;">
+    <h1>Television Series & Originals</h1>
+    <p>Binge multi-season dramas, thrilling mysteries, and anime epics.</p>
+  </div>
+
+  <div class="card-grid">
+    {% for series in series_list %}
+      <a href="{{ series.get_absolute_url }}" class="movie-card">
+        <img src="{{ series.poster_url }}" alt="{{ series.title }}" class="movie-card-poster">
+        <div class="movie-card-overlay">
+          <div class="movie-card-title">{{ series.title }}</div>
+          <div class="movie-card-meta">
+            <span class="rating-badge">★ {{ series.average_rating }}</span>
+            <span>{{ series.total_seasons }} Season{% if series.total_seasons != 1 %}s{% endif %}</span>
+          </div>
+        </div>
+      </a>
+    {% empty %}
+      <p>No television series cataloged yet.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

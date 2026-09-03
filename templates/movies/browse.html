@@ -1,0 +1,144 @@
+{% extends 'base.html' %}
+{% load static movie_tags %}
+
+{% block title %}CineVerse — Watch Movies & TV Series Online in 4K UHD{% endblock %}
+
+{% block content %}
+<!-- Hero Featured Banner Showcase -->
+{% if hero_movies %}
+  {% with hero=hero_movies.0 %}
+  <div style="position: relative; height: 75vh; min-height: 520px; max-height: 780px; display: flex; align-items: center; background: url('{{ hero.backdrop_url }}') center/cover no-repeat; margin-top: -4.75rem;">
+    <!-- Vignette Gradient Overlays -->
+    <div style="position: absolute; inset: 0; background: linear-gradient(0deg, #08090C 0%, rgba(8, 9, 12, 0.45) 50%, rgba(8, 9, 12, 0.8) 100%);"></div>
+    <div style="position: absolute; inset: 0; background: linear-gradient(90deg, #08090C 0%, rgba(8, 9, 12, 0.7) 45%, transparent 100%);"></div>
+
+    <div class="container" style="position: relative; z-index: 10;">
+      <div style="max-width: 680px;">
+        <div style="display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.75rem;">
+          <span class="badge badge-admin">CINEVERSE ORIGINAL</span>
+          <span class="badge badge-4k">{{ hero.resolution }}</span>
+          <span style="color: var(--cv-gold); font-weight: 700; font-size: 0.9rem;">★ {{ hero.average_rating }}</span>
+        </div>
+        <h1 style="font-size: 3.5rem; line-height: 1.1; margin-bottom: 0.75rem; text-shadow: 0 4px 15px rgba(0,0,0,0.8);">{{ hero.title }}</h1>
+        <p style="font-size: 1.15rem; line-height: 1.6; color: #E0E2EC; margin-bottom: 1.75rem; text-shadow: 0 2px 8px rgba(0,0,0,0.8);">
+          {{ hero.synopsis|truncatewords:28 }}
+        </p>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="{% url 'player:movie_player' hero.slug %}" class="btn btn-primary btn-lg">
+            <span>▶</span> Watch Movie
+          </a>
+          <a href="{{ hero.get_absolute_url }}" class="btn btn-secondary btn-lg">
+            <span>ℹ️</span> Details & Cast
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  {% endwith %}
+{% endif %}
+
+<div class="container" style="margin-top: 2rem;">
+  <!-- Continue Watching Shelf -->
+  {% if continue_watching %}
+  <section class="content-rail-section">
+    <div class="content-rail-header">
+      <div class="content-rail-title">
+        <span class="accent-bar" style="background: var(--cv-accent);"></span> Continue Watching for {{ user.first_name|default:"You" }}
+      </div>
+      <a href="{% url 'history:stream_history' %}" class="content-rail-see-all">History ›</a>
+    </div>
+    <div class="content-rail-scroll">
+      {% for item in continue_watching %}
+        <a href="{{ item.resume_url }}" class="rail-item" style="aspect-ratio: 16/9; min-width: 260px;">
+          <img src="{{ item.target_thumbnail }}" alt="{{ item.target_title }}" class="rail-item-poster">
+          <div class="movie-card-overlay" style="opacity: 1; background: linear-gradient(0deg, rgba(8,9,12,0.9) 0%, transparent 60%);">
+            <div class="movie-card-title">{{ item.target_title }}</div>
+            <div style="font-size: 0.75rem; color: var(--cv-accent); margin-bottom: 0.35rem;">Resume at {{ item.percentage_watched|floatformat:0 }}%</div>
+            <div style="width: 100%; height: 4px; background: rgba(255,255,255,0.2); border-radius: 2px;">
+              <div style="width: {{ item.percentage_watched }}%; height: 100%; background: var(--cv-primary); border-radius: 2px;"></div>
+            </div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </section>
+  {% endif %}
+
+  <!-- Trending Movies Rail -->
+  <section class="content-rail-section">
+    <div class="content-rail-header">
+      <div class="content-rail-title">
+        <span class="accent-bar"></span> Trending Feature Films
+      </div>
+      <a href="{% url 'movies:catalog' %}" class="content-rail-see-all">Explore All ›</a>
+    </div>
+    <div class="content-rail-scroll">
+      {% for movie in trending_movies %}
+        <a href="{{ movie.get_absolute_url }}" class="rail-item">
+          <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" class="rail-item-poster">
+          <div class="movie-card-overlay">
+            <div class="movie-card-title">{{ movie.title }}</div>
+            <div class="movie-card-meta">
+              <span class="rating-badge">★ {{ movie.average_rating }}</span>
+              <span>{{ movie.release_year }}</span>
+            </div>
+          </div>
+        </a>
+      {% empty %}
+        <p style="color: var(--cv-text-muted);">Populating trending titles...</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Recent Releases Rail -->
+  <section class="content-rail-section">
+    <div class="content-rail-header">
+      <div class="content-rail-title">
+        <span class="accent-bar"></span> Newly Added to CineVerse
+      </div>
+      <a href="{% url 'movies:catalog' %}" class="content-rail-see-all">See More ›</a>
+    </div>
+    <div class="content-rail-scroll">
+      {% for movie in recent_movies %}
+        <a href="{{ movie.get_absolute_url }}" class="rail-item">
+          <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" class="rail-item-poster">
+          <div class="movie-card-overlay">
+            <div class="movie-card-title">{{ movie.title }}</div>
+            <div class="movie-card-meta">
+              <span class="badge badge-4k">{{ movie.resolution }}</span>
+              <span>{{ movie.formatted_duration }}</span>
+            </div>
+          </div>
+        </a>
+      {% empty %}
+        <p style="color: var(--cv-text-muted);">No releases added yet.</p>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Top Rated Rail -->
+  <section class="content-rail-section">
+    <div class="content-rail-header">
+      <div class="content-rail-title">
+        <span class="accent-bar"></span> Critically Acclaimed & Top Rated
+      </div>
+    </div>
+    <div class="content-rail-scroll">
+      {% for movie in top_rated_movies %}
+        <a href="{{ movie.get_absolute_url }}" class="rail-item">
+          <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" class="rail-item-poster">
+          <div class="movie-card-overlay">
+            <div class="movie-card-title">{{ movie.title }}</div>
+            <div class="movie-card-meta">
+              <span class="rating-badge">★ {{ movie.average_rating }}</span>
+              <span>{{ movie.release_year }}</span>
+            </div>
+          </div>
+        </a>
+      {% empty %}
+        <p style="color: var(--cv-text-muted);">No rated titles available.</p>
+      {% endfor %}
+    </div>
+  </section>
+</div>
+{% endblock %}

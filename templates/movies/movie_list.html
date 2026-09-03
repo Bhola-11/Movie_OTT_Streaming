@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}Browse All Movies — CineVerse Catalog{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 2rem;">
+  <div style="display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 2rem; border-bottom: 1px solid var(--cv-border); padding-bottom: 1.5rem;">
+    <div>
+      <h1>Movie Catalog</h1>
+      <p>Filter by genre, production year, content rating, and keywords.</p>
+    </div>
+  </div>
+
+  <!-- Filter Toolbar -->
+  <form method="get" style="display: flex; gap: 1rem; flex-wrap: wrap; margin-bottom: 2.5rem; background: var(--cv-bg-surface); padding: 1.25rem; border-radius: var(--cv-radius-md); border: 1px solid var(--cv-border);">
+    <div style="flex: 2; min-width: 220px;">
+      <input type="text" name="q" value="{{ search_query }}" placeholder="Search by title or cast..." class="form-input">
+    </div>
+    <div style="flex: 1; min-width: 160px;">
+      <select name="genre" class="form-select">
+        <option value="">All Genres</option>
+        {% for g in all_genres %}
+          <option value="{{ g.slug }}" {% if selected_genre == g.slug %}selected{% endif %}>{{ g.name }}</option>
+        {% endfor %}
+      </select>
+    </div>
+    <div style="flex: 1; min-width: 140px;">
+      <select name="rating" class="form-select">
+        <option value="">All Ratings</option>
+        <option value="G" {% if selected_rating == 'G' %}selected{% endif %}>G</option>
+        <option value="PG" {% if selected_rating == 'PG' %}selected{% endif %}>PG</option>
+        <option value="PG-13" {% if selected_rating == 'PG-13' %}selected{% endif %}>PG-13</option>
+        <option value="R" {% if selected_rating == 'R' %}selected{% endif %}>R</option>
+      </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Apply Filters</button>
+  </form>
+
+  <!-- Movie Cards Grid -->
+  <div class="card-grid">
+    {% for movie in movies %}
+      <a href="{{ movie.get_absolute_url }}" class="movie-card">
+        <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" class="movie-card-poster">
+        <div class="movie-card-overlay">
+          <div class="movie-card-title">{{ movie.title }}</div>
+          <div class="movie-card-meta">
+            <span class="rating-badge">★ {{ movie.average_rating }}</span>
+            <span>{{ movie.release_year }} • {{ movie.content_rating }}</span>
+          </div>
+        </div>
+      </a>
+    {% empty %}
+      <div style="grid-column: 1 / -1; padding: 4rem; text-align: center; background: var(--cv-bg-surface); border-radius: var(--cv-radius-md); color: var(--cv-text-muted);">
+        No movies match your filter parameters.
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
