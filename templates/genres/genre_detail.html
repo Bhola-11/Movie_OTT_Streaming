@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block title %}{{ genre.name }} Movies & Series — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 2rem;">
+  <div style="margin-bottom: 3rem;">
+    <span class="badge badge-admin" style="margin-bottom: 0.5rem;">Genre Showcase</span>
+    <h1>{{ genre.name }}</h1>
+    <p style="max-width: 700px; font-size: 1.05rem;">{{ genre.description }}</p>
+  </div>
+
+  <h2 style="margin-bottom: 1.5rem;">Feature Films in {{ genre.name }}</h2>
+  <div class="card-grid">
+    {% for movie in movies %}
+      <a href="{{ movie.get_absolute_url }}" class="movie-card">
+        <img src="{{ movie.poster.url }}" alt="{{ movie.title }}" class="movie-card-poster">
+        <div class="movie-card-overlay">
+          <div class="movie-card-title">{{ movie.title }}</div>
+          <div class="movie-card-meta">
+            <span class="rating-badge">★ {{ movie.rating_score|default:"8.5" }}</span>
+            <span>{{ movie.release_year }}</span>
+          </div>
+        </div>
+      </a>
+    {% empty %}
+      <div style="grid-column: 1 / -1; padding: 2rem; background: var(--cv-bg-surface); border-radius: var(--cv-radius-md); text-align: center; color: var(--cv-text-muted);">
+        Titles for this genre will appear once seeded in Phase 2.
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

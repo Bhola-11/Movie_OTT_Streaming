@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block title %}Cast, Directors & Stars — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 2rem;">
+  <div style="margin-bottom: 2.5rem;">
+    <h1>Stars & Creators</h1>
+    <p>Explore the brilliant actors, visionaries, and directors behind your favorite cinematic stories.</p>
+  </div>
+
+  <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));">
+    {% for person in people %}
+      <a href="{{ person.get_absolute_url }}" style="display: block; text-align: center; background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.5rem 1rem; transition: var(--cv-transition);" onmouseover="this.style.borderColor='var(--cv-primary)'; this.style.transform='translateY(-4px)';" onmouseout="this.style.borderColor='var(--cv-border)'; this.style.transform='none';">
+        <img src="https://api.dicebear.com/7.x/initials/svg?seed={{ person.full_name }}&backgroundColor=1f2330" style="width: 90px; height: 90px; border-radius: var(--cv-radius-full); margin-bottom: 1rem; border: 2px solid var(--cv-border);">
+        <h4 style="font-size: 1rem; margin-bottom: 0.3rem;">{{ person.full_name }}</h4>
+        <div style="font-size: 0.8rem; color: var(--cv-text-muted);">{{ person.primary_profession.name|default:"Cinematic Artist" }}</div>
+      </a>
+    {% empty %}
+      <p>No creators recorded yet.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
