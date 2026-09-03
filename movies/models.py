@@ -138,7 +138,16 @@ class MovieSubtitle(models.Model):
         unique_together = ('movie', 'language_code')
 
     def __str__(self):
-        return f"{self.movie.title} Subtitle ({self.language_name})"
+        return f"{self.language_name} Subtitle for {self.movie.title}"
+
+    @property
+    def file_url(self):
+        if self.vtt_file:
+            try:
+                return self.vtt_file.url
+            except ValueError:
+                pass
+        return f"/static/subtitles/{self.language_code}.vtt"
 
 
 class MovieQuality(models.Model):

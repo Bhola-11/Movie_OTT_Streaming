@@ -68,3 +68,15 @@ class EpisodeSubtitle(models.Model):
 
     class Meta:
         unique_together = ('episode', 'language_code')
+
+    def __str__(self):
+        return f"{self.language_name} Subtitle for {self.episode.title}"
+
+    @property
+    def file_url(self):
+        if self.vtt_file:
+            try:
+                return self.vtt_file.url
+            except ValueError:
+                pass
+        return f"/static/subtitles/{self.language_code}.vtt"

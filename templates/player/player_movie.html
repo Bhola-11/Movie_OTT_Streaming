@@ -17,7 +17,7 @@
     <!-- Main Video Element -->
     <video id="cineverseVideo" src="{{ video_src }}" preload="metadata" data-stream-token="{{ stream_token }}">
       {% for sub in subtitles %}
-        <track label="{{ sub.language_name }}" kind="subtitles" srclang="{{ sub.language_code }}" src="{{ sub.vtt_file.url }}" {% if sub.is_default %}default{% endif %}>
+        <track label="{{ sub.language_name }}" kind="subtitles" srclang="{{ sub.language_code }}" src="{{ sub.file_url }}" {% if sub.is_default %}default{% endif %}>
       {% endfor %}
     </video>
 
