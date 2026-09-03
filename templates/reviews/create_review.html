@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %}Write a Critique / Review — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 650px; padding-top: 2rem;">
+  <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-lg); padding: 2.5rem;">
+    <h2 style="margin-bottom: 0.5rem;">Submit Your Review</h2>
+    <p style="margin-bottom: 2rem;">Share your honest rating and analysis with fellow film lovers.</p>
+
+    <form method="post" action="{% url 'reviews:create' %}">
+      {% csrf_token %}
+      {% if request.GET.movie %}
+        <input type="hidden" name="movie_slug" value="{{ request.GET.movie }}">
+      {% elif request.GET.series %}
+        <input type="hidden" name="series_slug" value="{{ request.GET.series }}">
+      {% endif %}
+
+      <div class="form-group">
+        <label class="form-label">Rating (Out of 10)</label>
+        {{ form.rating }}
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Review Headline</label>
+        {{ form.title }}
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Critique & Detailed Thoughts</label>
+        {{ form.content }}
+      </div>
+
+      <div class="form-group" style="margin-top: 1rem;">
+        <label style="display: flex; align-items: center; gap: 0.5rem; color: #fff; cursor: pointer;">
+          {{ form.contains_spoilers }} Warning: This review contains major plot spoilers
+        </label>
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="margin-top: 1.5rem; width: 100%;">Publish Review</button>
+    </form>
+  </div>
+</div>
+{% endblock %}

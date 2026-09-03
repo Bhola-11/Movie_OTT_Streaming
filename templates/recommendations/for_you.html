@@ -1,0 +1,49 @@
+{% extends 'base.html' %}
+{% block title %}Recommended For You — CineVerse Engine{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 2rem;">
+  <div style="margin-bottom: 2.5rem;">
+    <span class="badge badge-admin" style="margin-bottom: 0.5rem;">CineVerse AI Engine</span>
+    <h1>Top Picks For You</h1>
+    <p>Personalized matches generated from your viewing taste, favorite genres, and community ratings.</p>
+  </div>
+
+  <div class="card-grid">
+    {% for movie in recommendations %}
+      <a href="{{ movie.get_absolute_url }}" class="movie-card">
+        <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" class="movie-card-poster">
+        <div class="movie-card-overlay">
+          <div style="margin-bottom: 0.4rem;">
+            <span class="badge" style="background: var(--cv-accent); color: #000; font-weight: 800;">98% MATCH</span>
+          </div>
+          <div class="movie-card-title">{{ movie.title }}</div>
+          <div class="movie-card-meta">★ {{ movie.average_rating }} • {{ movie.release_year }}</div>
+        </div>
+      </a>
+    {% empty %}
+      <p>Start watching titles to personalize your recommendation feed!</p>
+    {% endfor %}
+  </div>
+
+  <div style="margin-top: 4rem;">
+    <h2>Top 10 in CineVerse Today</h2>
+    <p style="margin-bottom: 2rem;">The most watched titles in the last 24 hours.</p>
+
+    <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));">
+      {% for top in top_10 %}
+        <a href="{{ top.get_absolute_url }}" class="movie-card" style="position: relative;">
+          <div style="position: absolute; top: -10px; left: 10px; font-size: 3.5rem; font-family: var(--cv-font-display); font-weight: 900; color: #fff; text-shadow: 0 0 20px rgba(0,0,0,0.9), 0 0 10px var(--cv-primary); z-index: 30;">
+            #{{ forloop.counter }}
+          </div>
+          <img src="{{ top.poster_url }}" alt="{{ top.title }}" class="movie-card-poster">
+          <div class="movie-card-overlay">
+            <div class="movie-card-title">{{ top.title }}</div>
+            <div class="movie-card-meta">{{ top.view_count }} streams</div>
+          </div>
+        </a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endblock %}
