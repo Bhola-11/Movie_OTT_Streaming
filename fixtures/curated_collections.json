@@ -1,0 +1,3842 @@
+[
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4ca7f6dc-1e12-5e07-b9ce-8edc073eea8b",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 1,
+      "curator_notes": "Selected as quintessential entry #1 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": true,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "cde5edda-8c2d-51d7-aa68-93ae576bdd32",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 2,
+      "curator_notes": "Selected as quintessential entry #2 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ecb8deac-4e99-5bda-8380-78830810298b",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 3,
+      "curator_notes": "Selected as quintessential entry #3 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fc124a6b-838c-5ba4-a938-1f2b7ca914bc",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 4,
+      "curator_notes": "Selected as quintessential entry #4 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d3621bd8-1570-5961-a8cd-a28540d1e7cb",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 5,
+      "curator_notes": "Selected as quintessential entry #5 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ca99aa59-1146-5b38-9090-3ed5f6414778",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 6,
+      "curator_notes": "Selected as quintessential entry #6 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "49d8738f-989d-5220-bcb2-cd6849282d4e",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 7,
+      "curator_notes": "Selected as quintessential entry #7 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "59893f3e-3e69-590d-a1c1-6bd9e3578b5a",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 8,
+      "curator_notes": "Selected as quintessential entry #8 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ca298e8c-29bf-5c17-802c-c7109fd0a543",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 9,
+      "curator_notes": "Selected as quintessential entry #9 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0be3b2a9-2ff6-5863-83f8-1bdfdc41ed13",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 10,
+      "curator_notes": "Selected as quintessential entry #10 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b19aad64-684d-501b-80a5-b13d2d216318",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 11,
+      "curator_notes": "Selected as quintessential entry #11 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6e638742-d945-50d0-a408-83ac9fc28452",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 12,
+      "curator_notes": "Selected as quintessential entry #12 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "acb3a00a-0647-514f-a7df-2365c7036750",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 13,
+      "curator_notes": "Selected as quintessential entry #13 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "98a391d8-b160-5e50-baee-1c0d6e41573d",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 14,
+      "curator_notes": "Selected as quintessential entry #14 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "efc61dee-d39f-595f-b64b-c08c7bda8828",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 15,
+      "curator_notes": "Selected as quintessential entry #15 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4aa1c242-a23c-5fa3-aa18-8ef43da349ce",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 16,
+      "curator_notes": "Selected as quintessential entry #16 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "aa7b6a48-c8c1-50a9-9989-2efd38b5e259",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 17,
+      "curator_notes": "Selected as quintessential entry #17 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "06195800-ab6d-59c3-a332-a4e6bed7ace7",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 18,
+      "curator_notes": "Selected as quintessential entry #18 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "390859a4-bdc9-5630-b463-831041d855ac",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 19,
+      "curator_notes": "Selected as quintessential entry #19 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "172c650b-4cb2-5970-a480-4939dca422ca",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 20,
+      "curator_notes": "Selected as quintessential entry #20 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8fb550ad-bb87-50ad-800f-5e2b43fee00a",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 21,
+      "curator_notes": "Selected as quintessential entry #21 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3bea4d24-59c4-5b25-b7e3-e67ffcf77366",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 22,
+      "curator_notes": "Selected as quintessential entry #22 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3e316354-2508-5912-84ce-eabc42f3272e",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 23,
+      "curator_notes": "Selected as quintessential entry #23 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ec6160d2-acca-5c8f-8ae4-726d0217cbdc",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 24,
+      "curator_notes": "Selected as quintessential entry #24 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "7e622215-65dc-5843-b770-3a55ac465f21",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 25,
+      "curator_notes": "Selected as quintessential entry #25 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ae45ab90-b336-5389-a1c1-3bde774057ff",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 26,
+      "curator_notes": "Selected as quintessential entry #26 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0d3fa8c2-689c-5925-ac08-1cbad70218b8",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 27,
+      "curator_notes": "Selected as quintessential entry #27 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a969218c-ad85-5a04-b2a9-9cefacf9d460",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 28,
+      "curator_notes": "Selected as quintessential entry #28 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8153e597-dbec-5051-aa67-ad9f86e6aad7",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 29,
+      "curator_notes": "Selected as quintessential entry #29 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "16b3b97c-be08-5851-b078-0e7f5d3635ed",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 30,
+      "curator_notes": "Selected as quintessential entry #30 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "04ebd708-75ab-53d2-b4dd-b2f7b8959ecb",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 31,
+      "curator_notes": "Selected as quintessential entry #31 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "68042556-26ed-5df0-8ec7-1de6a2844602",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 32,
+      "curator_notes": "Selected as quintessential entry #32 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6f4a5461-f153-5919-a2f6-44bd1c7b7fac",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 33,
+      "curator_notes": "Selected as quintessential entry #33 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "63b98785-9883-55dc-bab1-68be01bdf528",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 34,
+      "curator_notes": "Selected as quintessential entry #34 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "2ca42585-f1a3-5e73-8827-14055cd525d9",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 35,
+      "curator_notes": "Selected as quintessential entry #35 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "576b13dc-2e68-55a1-abc9-880d1c850431",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 36,
+      "curator_notes": "Selected as quintessential entry #36 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d12d57bc-c9bd-57b6-93cc-4da66a19da23",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 37,
+      "curator_notes": "Selected as quintessential entry #37 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c9ecff87-9a22-5615-9b5e-5b51624207ff",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 38,
+      "curator_notes": "Selected as quintessential entry #38 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "cc5acac6-ba4d-52b9-90c8-b66bed76e369",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 39,
+      "curator_notes": "Selected as quintessential entry #39 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e2ef8c34-4ca1-5e0f-a68b-66d1bfdf00e6",
+    "fields": {
+      "collection_name": "The Cyberpunk Vanguard",
+      "collection_description": "Dystopian high-tech mega-cities, neon aesthetics, and synthetic intelligences.",
+      "item_rank": 40,
+      "curator_notes": "Selected as quintessential entry #40 embodying the cyberpunk vanguard aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e207504e-dc8c-5648-b1d2-8e9720485e92",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 1,
+      "curator_notes": "Selected as quintessential entry #1 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": true,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "27605365-0a46-56dd-bf4b-c7a0517d8f63",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 2,
+      "curator_notes": "Selected as quintessential entry #2 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "5ea01d72-cb23-574a-b4dc-2e0d5171badb",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 3,
+      "curator_notes": "Selected as quintessential entry #3 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4fecdf5d-70b9-551a-8aac-afd5b91be87b",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 4,
+      "curator_notes": "Selected as quintessential entry #4 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ea8b2f33-5e0b-57e7-8576-4c941f2762f6",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 5,
+      "curator_notes": "Selected as quintessential entry #5 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "44b6cdc8-82d1-5bd5-9636-fb3e2a1764a6",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 6,
+      "curator_notes": "Selected as quintessential entry #6 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b77deb9b-6030-5501-baa8-8380b3c7a295",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 7,
+      "curator_notes": "Selected as quintessential entry #7 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "57a8d87f-998c-5f9f-9cb0-408d3a1935a8",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 8,
+      "curator_notes": "Selected as quintessential entry #8 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "89092d08-48b6-5491-917c-d7dbc8ca59cd",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 9,
+      "curator_notes": "Selected as quintessential entry #9 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "21e3aabb-e09c-5356-9a6d-80faae535ccd",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 10,
+      "curator_notes": "Selected as quintessential entry #10 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6233472b-ff03-5d65-9b3a-cadc42abf7b6",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 11,
+      "curator_notes": "Selected as quintessential entry #11 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f7d967b9-3b8a-54d4-aee1-12c1ef906626",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 12,
+      "curator_notes": "Selected as quintessential entry #12 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e0f2bc7f-ccc3-5f51-ba76-a9c8637bcf51",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 13,
+      "curator_notes": "Selected as quintessential entry #13 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9ba714c5-b1d5-535b-97cb-408c67722bd1",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 14,
+      "curator_notes": "Selected as quintessential entry #14 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "18697fb3-843a-5bb1-beea-6c7ce3eb9a31",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 15,
+      "curator_notes": "Selected as quintessential entry #15 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d193f4fa-aa7a-5796-8ece-c32cf16024f8",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 16,
+      "curator_notes": "Selected as quintessential entry #16 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c99ac77c-ae1c-54d2-ba09-c9a9d54ba140",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 17,
+      "curator_notes": "Selected as quintessential entry #17 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d9ed6ddf-ba19-5ee6-9da6-2ce28a2cf33e",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 18,
+      "curator_notes": "Selected as quintessential entry #18 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8e290f0d-9110-5245-9bd2-5eaf4e112189",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 19,
+      "curator_notes": "Selected as quintessential entry #19 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "19dcbaf6-112f-5b98-a001-23d98dc836da",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 20,
+      "curator_notes": "Selected as quintessential entry #20 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "02e67d06-5de1-5601-aa9f-73a8e9f07fb4",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 21,
+      "curator_notes": "Selected as quintessential entry #21 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "571fb5ac-d4d4-52cc-bc7d-8435910e7de1",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 22,
+      "curator_notes": "Selected as quintessential entry #22 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a81fdbe6-9a13-5c81-a2f2-7d2ada13b648",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 23,
+      "curator_notes": "Selected as quintessential entry #23 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "13fdf2fe-6343-5903-99bd-17573fad0b9c",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 24,
+      "curator_notes": "Selected as quintessential entry #24 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "eb81b09d-f9a8-5be5-849e-36b7a3b44d12",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 25,
+      "curator_notes": "Selected as quintessential entry #25 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8c284f6d-7a55-552a-9ade-9749c0d35190",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 26,
+      "curator_notes": "Selected as quintessential entry #26 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3699ddbf-eea9-5a75-8138-00d6a8de9b98",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 27,
+      "curator_notes": "Selected as quintessential entry #27 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c2e24a01-0ef3-559c-a968-f3daebbf4126",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 28,
+      "curator_notes": "Selected as quintessential entry #28 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fdfe096a-f3ab-5d89-930a-bdb196e6b6aa",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 29,
+      "curator_notes": "Selected as quintessential entry #29 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a984533c-a583-5c91-80da-d547907a4388",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 30,
+      "curator_notes": "Selected as quintessential entry #30 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "39cbfdd8-2a61-55ce-b179-fbfc982c51ef",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 31,
+      "curator_notes": "Selected as quintessential entry #31 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3dfecd0b-b844-54e6-b4e2-2ea785f831a6",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 32,
+      "curator_notes": "Selected as quintessential entry #32 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f54a6218-80d7-5708-9a86-2e92c79c82d9",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 33,
+      "curator_notes": "Selected as quintessential entry #33 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "75e58da9-6ee2-5b40-9db0-61cc489854d9",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 34,
+      "curator_notes": "Selected as quintessential entry #34 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "98957069-25ff-5028-9f4e-679086ee24ef",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 35,
+      "curator_notes": "Selected as quintessential entry #35 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4bb953df-12b8-58ad-a060-34515adab0f8",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 36,
+      "curator_notes": "Selected as quintessential entry #36 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ea58658a-c7f3-56a3-b553-18c46fce6c96",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 37,
+      "curator_notes": "Selected as quintessential entry #37 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "39c24cb8-c851-59c8-ade4-2a584970b982",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 38,
+      "curator_notes": "Selected as quintessential entry #38 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0186dcd3-8832-52a4-84de-8c37fbb93621",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 39,
+      "curator_notes": "Selected as quintessential entry #39 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "cf951062-a38e-511e-90eb-24d0b1a10462",
+    "fields": {
+      "collection_name": "Auteur Visions: 70mm Panavision",
+      "collection_description": "Masterful cinematic scale from visionaries like Christopher Nolan and Denis Villeneuve.",
+      "item_rank": 40,
+      "curator_notes": "Selected as quintessential entry #40 embodying auteur visions: 70mm panavision aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a9497651-7639-5080-b39f-70e7b334cf51",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 1,
+      "curator_notes": "Selected as quintessential entry #1 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": true,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e395ab8b-8524-5781-8902-70e8620d048e",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 2,
+      "curator_notes": "Selected as quintessential entry #2 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ae60de1c-b7d5-5766-8197-a06b0041177b",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 3,
+      "curator_notes": "Selected as quintessential entry #3 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ebb4f17f-540e-510f-9858-c15d7cf246a2",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 4,
+      "curator_notes": "Selected as quintessential entry #4 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c0616467-ffd2-5ddf-b568-cc91021ba11f",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 5,
+      "curator_notes": "Selected as quintessential entry #5 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "1b3174ac-dda4-5159-a5c6-07318d7e432c",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 6,
+      "curator_notes": "Selected as quintessential entry #6 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "57a94c73-b08a-58a5-8f44-a87ff055050e",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 7,
+      "curator_notes": "Selected as quintessential entry #7 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9741f5f9-7f72-5f96-90e9-c9d8c0814e11",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 8,
+      "curator_notes": "Selected as quintessential entry #8 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "36055c30-b368-5119-9239-6524f5f19232",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 9,
+      "curator_notes": "Selected as quintessential entry #9 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e7d93c34-b07c-5026-9286-d384b1349a9d",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 10,
+      "curator_notes": "Selected as quintessential entry #10 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b72e4fdd-d5fc-55a7-ac2c-a048682aed5c",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 11,
+      "curator_notes": "Selected as quintessential entry #11 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "31934cd7-5e30-5ba9-b0ca-e1c6cd8ab5a6",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 12,
+      "curator_notes": "Selected as quintessential entry #12 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f8f3d305-0614-55c1-a4fa-1f9e641c7a66",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 13,
+      "curator_notes": "Selected as quintessential entry #13 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3a2b0169-72fb-5a43-aa16-f7fd3795b4a3",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 14,
+      "curator_notes": "Selected as quintessential entry #14 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "17c6fdb2-e7c6-57ef-9961-25d91f425209",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 15,
+      "curator_notes": "Selected as quintessential entry #15 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "94ee9037-6fa8-57ad-a5c6-cad9c201096d",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 16,
+      "curator_notes": "Selected as quintessential entry #16 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3d2838db-dab2-5814-97fd-15c9b6dc4d71",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 17,
+      "curator_notes": "Selected as quintessential entry #17 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "632da8df-a582-54f1-96f3-e05dc41bc4b7",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 18,
+      "curator_notes": "Selected as quintessential entry #18 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6b907063-4b28-5483-ba72-e549d554e663",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 19,
+      "curator_notes": "Selected as quintessential entry #19 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "364d4d14-d069-5ab7-95fc-c2df4d198cd5",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 20,
+      "curator_notes": "Selected as quintessential entry #20 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b0ced3a2-7c42-5659-abaa-55372b7fbca2",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 21,
+      "curator_notes": "Selected as quintessential entry #21 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "cb534d20-ed7e-572f-b7ed-9c1935f5f5e8",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 22,
+      "curator_notes": "Selected as quintessential entry #22 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a7dadb1a-b899-5d94-9680-8b0812132281",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 23,
+      "curator_notes": "Selected as quintessential entry #23 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0d886f18-60c9-5c56-9c6c-a169297be0ca",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 24,
+      "curator_notes": "Selected as quintessential entry #24 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e2d09911-e6bf-5e36-9ca0-38eb35f46074",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 25,
+      "curator_notes": "Selected as quintessential entry #25 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "39e1cc77-f919-5750-9faa-9406d230af7a",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 26,
+      "curator_notes": "Selected as quintessential entry #26 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "656e3162-0f86-5e33-a5de-9db9152fabae",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 27,
+      "curator_notes": "Selected as quintessential entry #27 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "08ccdcba-ceaf-525a-9d3a-aa9f59d15e90",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 28,
+      "curator_notes": "Selected as quintessential entry #28 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fdefb357-ed3f-531d-82a7-941893107584",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 29,
+      "curator_notes": "Selected as quintessential entry #29 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "74006bbb-d023-51e4-9835-82a9f95d76bd",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 30,
+      "curator_notes": "Selected as quintessential entry #30 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c4d527bc-0e21-5ee8-a665-78d503693088",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 31,
+      "curator_notes": "Selected as quintessential entry #31 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "2f6104a7-6a4c-5b9c-b277-7df26d0125bd",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 32,
+      "curator_notes": "Selected as quintessential entry #32 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "596140c4-385d-5fa0-8549-722d4b5b8e22",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 33,
+      "curator_notes": "Selected as quintessential entry #33 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c8b9cd87-587b-50c1-aa0a-2da59f18409c",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 34,
+      "curator_notes": "Selected as quintessential entry #34 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6899abed-8742-5d0b-87a2-c383cceddd2e",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 35,
+      "curator_notes": "Selected as quintessential entry #35 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "5df7dc28-8e03-53b3-9e48-45d9a9e92a2c",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 36,
+      "curator_notes": "Selected as quintessential entry #36 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b26615bb-1d5c-5bb7-82ff-5040e6121406",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 37,
+      "curator_notes": "Selected as quintessential entry #37 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "bc2e0b61-4e86-5a66-a461-421780e74d03",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 38,
+      "curator_notes": "Selected as quintessential entry #38 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8d3b21d6-e1e5-5eb6-9500-8f50939d2c63",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 39,
+      "curator_notes": "Selected as quintessential entry #39 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c202e406-35d7-5938-8d85-953c40c70479",
+    "fields": {
+      "collection_name": "The Noir Underground",
+      "collection_description": "Rain-slicked streets, hard-boiled detectives, and labyrinthine conspiracies.",
+      "item_rank": 40,
+      "curator_notes": "Selected as quintessential entry #40 embodying the noir underground aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "014cff94-839e-5320-b0a5-5691213f1fd4",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 1,
+      "curator_notes": "Selected as quintessential entry #1 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": true,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a1a23b21-bc97-59fa-847d-1828176b68ba",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 2,
+      "curator_notes": "Selected as quintessential entry #2 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "963ab153-fa24-590e-87c1-3fb09a2cb48d",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 3,
+      "curator_notes": "Selected as quintessential entry #3 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9eedcc30-0d17-59e8-a792-4a17b2d11c7b",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 4,
+      "curator_notes": "Selected as quintessential entry #4 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9ef5f6eb-c250-5bc8-a373-f784aa3d22c7",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 5,
+      "curator_notes": "Selected as quintessential entry #5 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "82c01a3a-234e-5a4f-a27e-a0fb4b85288f",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 6,
+      "curator_notes": "Selected as quintessential entry #6 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "1cff530b-ec7f-5abb-98ba-94ea869a49f4",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 7,
+      "curator_notes": "Selected as quintessential entry #7 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "aaf2a95c-829d-5ced-9699-416449c44133",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 8,
+      "curator_notes": "Selected as quintessential entry #8 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a1f50d3c-518e-5151-9572-88e75f952ef1",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 9,
+      "curator_notes": "Selected as quintessential entry #9 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e503bb2f-65ab-51d8-ae57-7a0ed713e8ab",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 10,
+      "curator_notes": "Selected as quintessential entry #10 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6103f15f-2b5e-51dd-8e7d-6d16c025afd3",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 11,
+      "curator_notes": "Selected as quintessential entry #11 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "31668f2d-3925-5305-8d48-51997b17ced9",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 12,
+      "curator_notes": "Selected as quintessential entry #12 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "632c671d-b95f-5bc8-9e5f-079729f2a9c9",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 13,
+      "curator_notes": "Selected as quintessential entry #13 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "909d9a26-c71b-58de-b241-ef34e9444501",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 14,
+      "curator_notes": "Selected as quintessential entry #14 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d62de9c4-8d31-5225-a486-21cb50b42a95",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 15,
+      "curator_notes": "Selected as quintessential entry #15 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e5df6e69-0198-5073-a4f4-948f719ed2fc",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 16,
+      "curator_notes": "Selected as quintessential entry #16 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "07d54bb9-dcac-5b40-b1aa-f0e22b3d88d6",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 17,
+      "curator_notes": "Selected as quintessential entry #17 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "1a2510b3-6527-52f6-a825-11a412e42115",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 18,
+      "curator_notes": "Selected as quintessential entry #18 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f69acf9c-8599-5ecd-8c01-6fc020e465b4",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 19,
+      "curator_notes": "Selected as quintessential entry #19 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "7704c963-71d9-58ed-9bec-710b39298206",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 20,
+      "curator_notes": "Selected as quintessential entry #20 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "eeb311a2-757a-5fe2-a9d0-6cdd23624ac6",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 21,
+      "curator_notes": "Selected as quintessential entry #21 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0f9dc0d2-ef31-5896-abc6-24ab0a00651a",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 22,
+      "curator_notes": "Selected as quintessential entry #22 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c8eb349b-ce3a-5c9d-afcc-bd172164d008",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 23,
+      "curator_notes": "Selected as quintessential entry #23 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "76e46d82-c741-566a-8c71-b80876d4aa4f",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 24,
+      "curator_notes": "Selected as quintessential entry #24 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b1c2d05b-a791-5c2e-b91d-44a2aab9fcc3",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 25,
+      "curator_notes": "Selected as quintessential entry #25 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "5d2e1605-852b-56dc-be8a-fb94f19f17fe",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 26,
+      "curator_notes": "Selected as quintessential entry #26 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "778b4a3d-d1aa-5983-a0ed-d3f35ae6f9ed",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 27,
+      "curator_notes": "Selected as quintessential entry #27 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "2d967097-7a80-54a5-a77f-cb96fe9da593",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 28,
+      "curator_notes": "Selected as quintessential entry #28 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ecedda00-db64-506e-b97e-c42f5d73f561",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 29,
+      "curator_notes": "Selected as quintessential entry #29 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "19111420-6cc9-59cc-8e2f-f5b4eb8a427d",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 30,
+      "curator_notes": "Selected as quintessential entry #30 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "7696b021-29af-5e78-b84b-d0f1576cd2b1",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 31,
+      "curator_notes": "Selected as quintessential entry #31 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "625d1050-de8a-55be-9a81-8873a2147fd6",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 32,
+      "curator_notes": "Selected as quintessential entry #32 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "559b4512-0974-50e1-ac9d-ebcdfb6d446d",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 33,
+      "curator_notes": "Selected as quintessential entry #33 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e521ba29-621c-5b8e-a5dd-566c56510c75",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 34,
+      "curator_notes": "Selected as quintessential entry #34 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "1faba4f4-e3d2-5280-b0b8-5d04da65bedf",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 35,
+      "curator_notes": "Selected as quintessential entry #35 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fb690fa2-ee28-534c-987d-27de9646355e",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 36,
+      "curator_notes": "Selected as quintessential entry #36 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6551ab55-c933-5518-aaf4-03f15d3e79a0",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 37,
+      "curator_notes": "Selected as quintessential entry #37 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "83d7f3d6-4939-5f21-84f9-8c981e88f281",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 38,
+      "curator_notes": "Selected as quintessential entry #38 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4bd81458-2423-5c0f-b0d6-28c26d268cb2",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 39,
+      "curator_notes": "Selected as quintessential entry #39 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "70569264-9685-59ee-97d6-5cedf5d25f93",
+    "fields": {
+      "collection_name": "Space Odyssey & Time Anomalies",
+      "collection_description": "Wormholes, black holes, and deep space survival across quantum horizons.",
+      "item_rank": 40,
+      "curator_notes": "Selected as quintessential entry #40 embodying space odyssey & time anomalies aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d710e4e1-a0d9-5e5b-86ee-ec684c691bbd",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 1,
+      "curator_notes": "Selected as quintessential entry #1 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": true,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "40f4db4c-be6d-5b30-9ac9-6b733abf1f29",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 2,
+      "curator_notes": "Selected as quintessential entry #2 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "be32a5a0-39b6-51eb-a2e5-fe5a802d8ae2",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 3,
+      "curator_notes": "Selected as quintessential entry #3 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "dfbd3918-7f43-5f44-a5d9-04c7adc2bd36",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 4,
+      "curator_notes": "Selected as quintessential entry #4 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "446fee96-be8a-521a-8326-840f10d22cba",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 5,
+      "curator_notes": "Selected as quintessential entry #5 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "399dd284-41d9-51c0-b2e4-feeed9e9cfe6",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 6,
+      "curator_notes": "Selected as quintessential entry #6 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "52ce644e-e558-53d8-b40b-e3e3613a3fd6",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 7,
+      "curator_notes": "Selected as quintessential entry #7 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "88b15e2c-7cb8-5ab0-9c85-c23448afe0da",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 8,
+      "curator_notes": "Selected as quintessential entry #8 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c60f84d4-f2db-526c-8b55-061176011eb4",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 9,
+      "curator_notes": "Selected as quintessential entry #9 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c10380d9-46a2-5f8d-989a-984ef7bdaf21",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 10,
+      "curator_notes": "Selected as quintessential entry #10 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6ffa081f-713a-5158-93f0-2b2faeade71d",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 11,
+      "curator_notes": "Selected as quintessential entry #11 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "65ff0f79-72ae-53a8-8c63-3583239e074d",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 12,
+      "curator_notes": "Selected as quintessential entry #12 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "493da6b4-f00a-5ff6-a0f8-eaf488b9d357",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 13,
+      "curator_notes": "Selected as quintessential entry #13 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "48e03e49-60dc-5b23-8eeb-06ff5171cfc9",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 14,
+      "curator_notes": "Selected as quintessential entry #14 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0b8476e4-372e-57b9-9c03-76f588611db2",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 15,
+      "curator_notes": "Selected as quintessential entry #15 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "897a69d6-8118-5f76-baab-85526e94a536",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 16,
+      "curator_notes": "Selected as quintessential entry #16 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "1536321d-bba7-5b87-aba2-0a53d57d8f6d",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 17,
+      "curator_notes": "Selected as quintessential entry #17 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d87f7e2d-d34b-5e57-8cf6-6c73558a088d",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 18,
+      "curator_notes": "Selected as quintessential entry #18 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "32037474-e7c0-5493-8d5e-24e8e7106751",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 19,
+      "curator_notes": "Selected as quintessential entry #19 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "7b41150b-3baa-51d6-a846-8bd99dec1ddb",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 20,
+      "curator_notes": "Selected as quintessential entry #20 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "5ddadf17-11b9-5c08-90e4-aaa962d2fee4",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 21,
+      "curator_notes": "Selected as quintessential entry #21 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "cd8cd6f9-13a9-505e-aa73-112a545171f3",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 22,
+      "curator_notes": "Selected as quintessential entry #22 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "07b63e60-cfa9-5d6a-93dc-94c1eb663108",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 23,
+      "curator_notes": "Selected as quintessential entry #23 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4aeb9b7d-5452-5544-946f-13f707220161",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 24,
+      "curator_notes": "Selected as quintessential entry #24 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "38a200c6-5592-5128-ab1a-1bd869483063",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 25,
+      "curator_notes": "Selected as quintessential entry #25 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4ddfb483-1f30-5dac-8ee4-70efc0617bf2",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 26,
+      "curator_notes": "Selected as quintessential entry #26 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d7bcf57f-995b-516e-945d-498ff98eb74e",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 27,
+      "curator_notes": "Selected as quintessential entry #27 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "51bbc831-a983-5f71-8e12-0871c6b2a012",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 28,
+      "curator_notes": "Selected as quintessential entry #28 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "bbc8bcef-59c5-5a06-a664-e69826875f0b",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 29,
+      "curator_notes": "Selected as quintessential entry #29 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "da7b9757-2bf9-5bb6-af25-18f736039c60",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 30,
+      "curator_notes": "Selected as quintessential entry #30 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b593dfc0-c67d-55da-8815-b98f5c5fcfcd",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 31,
+      "curator_notes": "Selected as quintessential entry #31 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "898134dc-0ad9-5c07-9427-5e3a28c27281",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 32,
+      "curator_notes": "Selected as quintessential entry #32 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "44f7df34-8e4c-5548-a1ab-25e3b5647bb2",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 33,
+      "curator_notes": "Selected as quintessential entry #33 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "90bcec5a-2cf9-5ce2-9078-dbb4dd424d8f",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 34,
+      "curator_notes": "Selected as quintessential entry #34 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b479ce22-a913-5bd7-9e40-b186f37f988f",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 35,
+      "curator_notes": "Selected as quintessential entry #35 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a791823a-9395-51c9-bd4b-aa77c0177696",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 36,
+      "curator_notes": "Selected as quintessential entry #36 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3c3a45b4-782c-5e24-940e-03bdf9ffcd6e",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 37,
+      "curator_notes": "Selected as quintessential entry #37 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "1a2cf55c-2367-5134-825d-5db7d48a3783",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 38,
+      "curator_notes": "Selected as quintessential entry #38 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e2ac1c1b-f0d4-55a7-bbf8-d412e46d2d80",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 39,
+      "curator_notes": "Selected as quintessential entry #39 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4b928732-0c4f-5bed-bb6d-b09b3c0d2b2f",
+    "fields": {
+      "collection_name": "Psychological Enigmas",
+      "collection_description": "Mind-bending unreliable narrators and cerebral plot twists.",
+      "item_rank": 40,
+      "curator_notes": "Selected as quintessential entry #40 embodying psychological enigmas aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "05a2f742-8e76-52f7-a087-755d228ce992",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 1,
+      "curator_notes": "Selected as quintessential entry #1 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": true,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "50f16b53-acfb-5670-af5a-e8ad904ea009",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 2,
+      "curator_notes": "Selected as quintessential entry #2 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c3db2b9d-b777-5210-bbcc-ce12afba14c3",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 3,
+      "curator_notes": "Selected as quintessential entry #3 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4a39fa99-e240-5cb7-ad7e-d44fac84a9b9",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 4,
+      "curator_notes": "Selected as quintessential entry #4 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ccae01bf-5731-5b95-aedf-aacc93a45446",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 5,
+      "curator_notes": "Selected as quintessential entry #5 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "cd2e56ea-677d-5c18-b21d-bb17382f8565",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 6,
+      "curator_notes": "Selected as quintessential entry #6 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e3604795-f07b-5547-88a0-02a4ab25d61e",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 7,
+      "curator_notes": "Selected as quintessential entry #7 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ced8f0a8-23e1-5cbf-91cb-d0e29597961b",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 8,
+      "curator_notes": "Selected as quintessential entry #8 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "bd0ae867-0a61-56cf-9fc6-5950cf9d936c",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 9,
+      "curator_notes": "Selected as quintessential entry #9 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "acc8ad3f-f9f3-5353-8857-389327e45f7e",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 10,
+      "curator_notes": "Selected as quintessential entry #10 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "7104c541-4bd3-561f-8c3a-b63df75eff82",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 11,
+      "curator_notes": "Selected as quintessential entry #11 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d6b97d2b-29aa-5dc9-8267-89c88563b4d4",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 12,
+      "curator_notes": "Selected as quintessential entry #12 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "561d57ec-f136-507c-aa6c-77cee2b1f90e",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 13,
+      "curator_notes": "Selected as quintessential entry #13 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9fd147d2-815b-5893-a46b-93be88f49542",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 14,
+      "curator_notes": "Selected as quintessential entry #14 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "29866071-e832-5a2a-8ed3-da1d641816b1",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 15,
+      "curator_notes": "Selected as quintessential entry #15 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "70131685-3769-5a02-aaf0-4d7e584f361b",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 16,
+      "curator_notes": "Selected as quintessential entry #16 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0d02256b-b158-5c26-b968-30e482a059a3",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 17,
+      "curator_notes": "Selected as quintessential entry #17 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0319ec71-79e8-5675-989e-4dc39c688b37",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 18,
+      "curator_notes": "Selected as quintessential entry #18 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f358bfd2-b075-5c2a-9d79-da1b0e130fdc",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 19,
+      "curator_notes": "Selected as quintessential entry #19 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0b9b5a64-b4f2-5e7f-97ea-5efab62b3909",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 20,
+      "curator_notes": "Selected as quintessential entry #20 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "5c771ba2-dbe0-5116-a0b1-9d3323371263",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 21,
+      "curator_notes": "Selected as quintessential entry #21 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "5c440e49-d07d-54ba-a23d-fcecf1fd738e",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 22,
+      "curator_notes": "Selected as quintessential entry #22 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "98f0c5d9-501c-50c7-8f18-a3075d571354",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 23,
+      "curator_notes": "Selected as quintessential entry #23 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4b1289fd-fbcd-5eb7-adcb-221b2d2b8c68",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 24,
+      "curator_notes": "Selected as quintessential entry #24 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "57c7c876-d798-54d0-8e8d-b8ba61ee65fb",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 25,
+      "curator_notes": "Selected as quintessential entry #25 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b6e42cd6-0dd4-5c97-8ff0-22b30433a9de",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 26,
+      "curator_notes": "Selected as quintessential entry #26 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e7dbdbbb-9c60-5dee-ba58-e91c3c696ecc",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 27,
+      "curator_notes": "Selected as quintessential entry #27 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "556a6b92-4e79-52fb-bed9-ce237e7d1746",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 28,
+      "curator_notes": "Selected as quintessential entry #28 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f72c7598-4601-5315-bbaa-bef8eadae204",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 29,
+      "curator_notes": "Selected as quintessential entry #29 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d9369a71-600e-5d98-8014-d24c70f82cc2",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 30,
+      "curator_notes": "Selected as quintessential entry #30 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b707adde-e6b2-5037-a574-9b933cc7795d",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 31,
+      "curator_notes": "Selected as quintessential entry #31 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d2020d6c-4353-50e8-b0e1-3cfda7eab144",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 32,
+      "curator_notes": "Selected as quintessential entry #32 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c456abc0-c9b2-50c4-a170-c975a2a28061",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 33,
+      "curator_notes": "Selected as quintessential entry #33 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ce56bd56-ef47-5a81-8a1e-342dc1fe195c",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 34,
+      "curator_notes": "Selected as quintessential entry #34 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8f2750de-eae7-558d-a063-20ff475ba913",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 35,
+      "curator_notes": "Selected as quintessential entry #35 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9d31184f-ae30-5bbc-b418-393251ded288",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 36,
+      "curator_notes": "Selected as quintessential entry #36 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "664ee4de-9591-54a2-acc6-029ade54bd95",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 37,
+      "curator_notes": "Selected as quintessential entry #37 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "770c58ea-f51e-596a-bc09-f6ff61963a00",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 38,
+      "curator_notes": "Selected as quintessential entry #38 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "38ff7555-a0c2-5fb4-9118-29c04e0a6bf9",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 39,
+      "curator_notes": "Selected as quintessential entry #39 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6fe5d94d-df3a-5f21-89e9-0a0b21816bca",
+    "fields": {
+      "collection_name": "Golden Age of Anime",
+      "collection_description": "Iconic hand-drawn animations and mythical fantasy sagas.",
+      "item_rank": 40,
+      "curator_notes": "Selected as quintessential entry #40 embodying golden age of anime aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b525c387-e7c5-541d-9be8-6040844d39e3",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 1,
+      "curator_notes": "Selected as quintessential entry #1 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": true,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "2dd98df7-2f92-57e0-bdde-13b0b6ae6914",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 2,
+      "curator_notes": "Selected as quintessential entry #2 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c6186824-4c62-572a-aadb-c037146b0d86",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 3,
+      "curator_notes": "Selected as quintessential entry #3 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d9cd04d2-436b-5019-84f1-92b3470255cd",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 4,
+      "curator_notes": "Selected as quintessential entry #4 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "94f10d36-021e-5261-952c-18e42f680aa1",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 5,
+      "curator_notes": "Selected as quintessential entry #5 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "76a8ee61-6a58-526b-bf00-8fb9e3735513",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 6,
+      "curator_notes": "Selected as quintessential entry #6 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e14cf6c6-a2b2-5497-afba-92619d9d192d",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 7,
+      "curator_notes": "Selected as quintessential entry #7 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "db9d6f43-fd6f-5a92-8cce-5345e05b917a",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 8,
+      "curator_notes": "Selected as quintessential entry #8 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e6f467e2-632c-5b81-a7f5-55e844069153",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 9,
+      "curator_notes": "Selected as quintessential entry #9 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "78d5a219-7e98-53d0-943c-3b8016c8aaf3",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 10,
+      "curator_notes": "Selected as quintessential entry #10 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b2552b56-c291-5d1b-a13a-0604e2fc302b",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 11,
+      "curator_notes": "Selected as quintessential entry #11 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "0d5a931a-e182-52e1-bb6f-87e62071902b",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 12,
+      "curator_notes": "Selected as quintessential entry #12 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "27e4247f-5b4a-5884-9a49-dfd46527fba4",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 13,
+      "curator_notes": "Selected as quintessential entry #13 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "da0aed20-7f64-5286-a4e4-8ae23ec9a2da",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 14,
+      "curator_notes": "Selected as quintessential entry #14 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b35e82e9-8a94-500d-8988-622922c82e2c",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 15,
+      "curator_notes": "Selected as quintessential entry #15 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "37b03731-fd0f-5748-952b-5d3290ef9602",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 16,
+      "curator_notes": "Selected as quintessential entry #16 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f7f76988-633f-5d03-b373-1298f1fb31c2",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 17,
+      "curator_notes": "Selected as quintessential entry #17 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ce8b0114-c769-5130-ad01-470234e276cc",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 18,
+      "curator_notes": "Selected as quintessential entry #18 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "22158ddd-71ad-59c0-b8b8-1cbb8150a0d0",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 19,
+      "curator_notes": "Selected as quintessential entry #19 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fea18bd5-f5db-55df-9687-39ac017c7e30",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 20,
+      "curator_notes": "Selected as quintessential entry #20 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "da6e9730-68be-5859-9224-3575751cf42c",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 21,
+      "curator_notes": "Selected as quintessential entry #21 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "47aa124a-3e86-55ac-8af4-14d41bd64f89",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 22,
+      "curator_notes": "Selected as quintessential entry #22 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6fb108ad-3e34-5bde-976e-69f7ccb3b89a",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 23,
+      "curator_notes": "Selected as quintessential entry #23 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3f0dc1a0-50c4-5ca6-b37d-fc2e160699ac",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 24,
+      "curator_notes": "Selected as quintessential entry #24 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "59a3683c-92ac-5e63-b662-cc50f5a24946",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 25,
+      "curator_notes": "Selected as quintessential entry #25 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "801c103a-06db-5e0b-8cc9-eec5afdcbc93",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 26,
+      "curator_notes": "Selected as quintessential entry #26 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "ae305672-ffea-5e91-8a6b-21a418dccf52",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 27,
+      "curator_notes": "Selected as quintessential entry #27 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "60f12063-ff18-57ea-b71a-809323b0ae63",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 28,
+      "curator_notes": "Selected as quintessential entry #28 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d8f44071-a56a-588c-b3ae-dc347be0362e",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 29,
+      "curator_notes": "Selected as quintessential entry #29 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c61b9370-47e0-5f6b-8048-11c87be2f9ac",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 30,
+      "curator_notes": "Selected as quintessential entry #30 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "26b882d7-78a7-52eb-b149-3d98bfea320d",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 31,
+      "curator_notes": "Selected as quintessential entry #31 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "457dfff5-8403-5681-9b70-35445bcc889d",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 32,
+      "curator_notes": "Selected as quintessential entry #32 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "a0e16658-da65-5901-a0cc-7c069fce69cb",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 33,
+      "curator_notes": "Selected as quintessential entry #33 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d21cb868-2b2c-532e-9e61-c619d603102e",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 34,
+      "curator_notes": "Selected as quintessential entry #34 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "82d8c897-b73b-56e0-b74d-e145f37b798c",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 35,
+      "curator_notes": "Selected as quintessential entry #35 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "50e59410-1670-5621-a093-3ab6beadbd88",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 36,
+      "curator_notes": "Selected as quintessential entry #36 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "11030c13-22f0-5878-90a4-f7b3c7ab94b4",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 37,
+      "curator_notes": "Selected as quintessential entry #37 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f9a6cd86-4537-5807-ac33-086ba54e57f9",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 38,
+      "curator_notes": "Selected as quintessential entry #38 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9856d662-6d0a-53e7-ac49-8f3c699a249e",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 39,
+      "curator_notes": "Selected as quintessential entry #39 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "be96668c-e4de-56d8-a8d9-1877887c61d7",
+    "fields": {
+      "collection_name": "Adrenaline Overdrive",
+      "collection_description": "Relentless martial arts choreography and precision vehicular stunts.",
+      "item_rank": 40,
+      "curator_notes": "Selected as quintessential entry #40 embodying adrenaline overdrive aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "21ef903f-7911-586b-bc0c-800f2c99b1ce",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 1,
+      "curator_notes": "Selected as quintessential entry #1 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": true,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "be01e859-a06c-50f6-b1a5-230c87fd8aa9",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 2,
+      "curator_notes": "Selected as quintessential entry #2 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "c027b3f4-fb27-5f38-b41a-d4f1675aae40",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 3,
+      "curator_notes": "Selected as quintessential entry #3 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9a2750fc-953b-57cb-a6c9-9a98b9afb49e",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 4,
+      "curator_notes": "Selected as quintessential entry #4 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b92d1d5c-504c-59fb-8786-b9db5e445366",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 5,
+      "curator_notes": "Selected as quintessential entry #5 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "80ed818a-81f4-5231-8f81-84c0ce77cca2",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 6,
+      "curator_notes": "Selected as quintessential entry #6 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8ef43431-9b37-5f70-99bf-e7f65e1f4b9e",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 7,
+      "curator_notes": "Selected as quintessential entry #7 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "411fb7e7-982f-565b-a74e-052384ffa3c3",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 8,
+      "curator_notes": "Selected as quintessential entry #8 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "67372c8a-fab9-57a0-8842-961f6d70f1c2",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 9,
+      "curator_notes": "Selected as quintessential entry #9 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b493048e-93ba-5e4f-8c73-65ffecb49a3d",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 10,
+      "curator_notes": "Selected as quintessential entry #10 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "04def910-2e12-5549-af8b-9399b0da3fd0",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 11,
+      "curator_notes": "Selected as quintessential entry #11 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "eeb06023-9e04-5dd9-b88b-9e32106d6a7a",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 12,
+      "curator_notes": "Selected as quintessential entry #12 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "7420f68c-87a7-5137-9afd-33cb0c5bf168",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 13,
+      "curator_notes": "Selected as quintessential entry #13 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f32b2e63-efbe-5674-9164-d0dd1e1444c1",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 14,
+      "curator_notes": "Selected as quintessential entry #14 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "b3262acd-dc99-52c1-a1af-32d4df9bc7d5",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 15,
+      "curator_notes": "Selected as quintessential entry #15 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "930cca88-1eed-5f07-bb88-63315a77a46d",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 16,
+      "curator_notes": "Selected as quintessential entry #16 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "805d0234-62f2-5d08-84ba-320c34021988",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 17,
+      "curator_notes": "Selected as quintessential entry #17 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fb075f8e-c450-5f83-a24b-838ff1e7b8a9",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 18,
+      "curator_notes": "Selected as quintessential entry #18 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "7ea8e1bd-29ab-5072-a9d7-b3ae07f98fc0",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 19,
+      "curator_notes": "Selected as quintessential entry #19 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "936814fd-541b-51c0-a19a-153b744f1401",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 20,
+      "curator_notes": "Selected as quintessential entry #20 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "4f460445-54ce-5e0f-ac73-dbddbefed2c7",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 21,
+      "curator_notes": "Selected as quintessential entry #21 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "2492cc1c-b96e-5d53-8424-72a8efcd898f",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 22,
+      "curator_notes": "Selected as quintessential entry #22 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fed6b77b-1774-5059-9b48-898c6edbd6d5",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 23,
+      "curator_notes": "Selected as quintessential entry #23 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "638839d1-58e5-56fd-b442-4dac3d662716",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 24,
+      "curator_notes": "Selected as quintessential entry #24 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "f6a146cf-4444-52dd-a96f-3a4cf9d4e2ff",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 25,
+      "curator_notes": "Selected as quintessential entry #25 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3d06bd5e-5b0e-56cf-a09d-9155dd0cc3ba",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 26,
+      "curator_notes": "Selected as quintessential entry #26 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "d623e175-8ef3-5d36-b8f2-d17cbb44a173",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 27,
+      "curator_notes": "Selected as quintessential entry #27 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "1da148ac-c299-59dc-ab09-6a7150fb051a",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 28,
+      "curator_notes": "Selected as quintessential entry #28 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fe49b0ce-88c0-5f6e-a9e7-24722187d514",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 29,
+      "curator_notes": "Selected as quintessential entry #29 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-06-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "6697ec3b-fbaf-5010-989d-9d1c7fbf78e8",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 30,
+      "curator_notes": "Selected as quintessential entry #30 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-07-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fe47d44e-b6ab-5f74-b206-4ebd705a0093",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 31,
+      "curator_notes": "Selected as quintessential entry #31 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-08-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "656538ad-e5eb-5f74-b01b-66a2bf436189",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 32,
+      "curator_notes": "Selected as quintessential entry #32 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-09-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "3d531b31-18be-5b1b-a9ed-05bc8fbcef51",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 33,
+      "curator_notes": "Selected as quintessential entry #33 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-10-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "9497dbd0-8d95-5458-9a87-a583480a6dde",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 34,
+      "curator_notes": "Selected as quintessential entry #34 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-11-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8ca221da-0df4-5536-8166-b0dadc5b8ea3",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 35,
+      "curator_notes": "Selected as quintessential entry #35 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-12-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "558d6f22-aca2-5139-8e1e-d21bb4459c50",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 36,
+      "curator_notes": "Selected as quintessential entry #36 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-01-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "fe86c236-4ab8-57f0-a33f-6a3f7450e4c2",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 37,
+      "curator_notes": "Selected as quintessential entry #37 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-02-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "e6c740b5-9862-57c4-ae6a-a49c71909e5e",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 38,
+      "curator_notes": "Selected as quintessential entry #38 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-03-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "8551dc1f-ad3c-5294-9920-abb4a1252641",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 39,
+      "curator_notes": "Selected as quintessential entry #39 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-04-01"
+    }
+  },
+  {
+    "model": "movies.curatedcollection",
+    "pk": "56e3b760-f06e-5f16-9fe7-cc7fc9b8a6a7",
+    "fields": {
+      "collection_name": "Heartfelt Dramas & Romances",
+      "collection_description": "Deeply touching emotional character journeys and sweeping romantic epics.",
+      "item_rank": 40,
+      "curator_notes": "Selected as quintessential entry #40 embodying heartfelt dramas & romances aesthetic and storytelling standards.",
+      "is_featured_banner": false,
+      "added_date": "2024-05-01"
+    }
+  }
+]

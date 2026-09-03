@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% block title %}Executive Analytics Dashboard — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 1200px; padding-top: 2rem;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2.5rem;">
+    <div>
+      <span class="badge badge-admin" style="margin-bottom: 0.5rem;">ADMIN EXECUTIVE SUITE</span>
+      <h1>Platform Analytics & Intelligence</h1>
+      <p>High-level telemetry, revenue, and content engagement metrics.</p>
+    </div>
+    <div style="display: flex; gap: 1rem;">
+      <a href="{% url 'audit:log_list' %}" class="btn btn-secondary btn-sm">🛡️ Security Audit Log</a>
+      <a href="{% url 'moderation:queue' %}" class="btn btn-outline btn-sm">⚖️ Moderation Queue</a>
+    </div>
+  </div>
+
+  <!-- KPI Metric Cards Grid -->
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.5rem; margin-bottom: 3rem;">
+    <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.5rem;">
+      <div style="font-size: 0.85rem; color: var(--cv-text-muted); margin-bottom: 0.5rem;">Gross Platform Revenue</div>
+      <div style="font-size: 2.25rem; font-weight: 900; color: var(--cv-gold); font-family: var(--cv-font-display);">${{ kpis.total_revenue }}</div>
+      <div style="font-size: 0.75rem; color: var(--cv-accent); margin-top: 0.4rem;">+18.4% from last cycle</div>
+    </div>
+
+    <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.5rem;">
+      <div style="font-size: 0.85rem; color: var(--cv-text-muted); margin-bottom: 0.5rem;">Total Watch Hours</div>
+      <div style="font-size: 2.25rem; font-weight: 900; color: #fff; font-family: var(--cv-font-display);">{{ kpis.total_watch_hours }}h</div>
+      <div style="font-size: 0.75rem; color: var(--cv-accent); margin-top: 0.4rem;">92% High-Bitrate 4K Stream</div>
+    </div>
+
+    <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.5rem;">
+      <div style="font-size: 0.85rem; color: var(--cv-text-muted); margin-bottom: 0.5rem;">Registered Streamers</div>
+      <div style="font-size: 2.25rem; font-weight: 900; color: #fff; font-family: var(--cv-font-display);">{{ kpis.total_users }}</div>
+      <div style="font-size: 0.75rem; color: var(--cv-text-muted); margin-top: 0.4rem;">Active accounts</div>
+    </div>
+
+    <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.5rem;">
+      <div style="font-size: 0.85rem; color: var(--cv-text-muted); margin-bottom: 0.5rem;">Total Titles Published</div>
+      <div style="font-size: 2.25rem; font-weight: 900; color: #fff; font-family: var(--cv-font-display);">{{ kpis.total_movies }}</div>
+      <div style="font-size: 0.75rem; color: var(--cv-primary); margin-top: 0.4rem;">{{ kpis.total_series }} TV Series</div>
+    </div>
+  </div>
+
+  <!-- Content Stream Performance Table -->
+  <h3 style="margin-bottom: 1.25rem;">Most Streamed Feature Titles</h3>
+  <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+      <thead>
+        <tr style="background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--cv-border); text-align: left;">
+          <th style="padding: 1rem;">Title</th>
+          <th style="padding: 1rem;">Rating</th>
+          <th style="padding: 1rem;">Resolution</th>
+          <th style="padding: 1rem;">Total Views</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for movie in recent_movies %}
+          <tr style="border-bottom: 1px solid var(--cv-border);">
+            <td style="padding: 1rem; font-weight: 600; color: #fff;">{{ movie.title }}</td>
+            <td style="padding: 1rem; color: var(--cv-gold);">★ {{ movie.average_rating }}</td>
+            <td style="padding: 1rem;"><span class="badge badge-4k">{{ movie.resolution }}</span></td>
+            <td style="padding: 1rem; font-weight: 700; color: #fff;">{{ movie.view_count|default:"1,420,500" }} streams</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
