@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block title %}Security & Password — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 700px; padding-top: 2rem;">
+  <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-lg); padding: 2.5rem; margin-bottom: 2rem;">
+    <h2 style="margin-bottom: 1rem;">Change Password</h2>
+    <form method="post">
+      {% csrf_token %}
+      <div class="form-group">
+        <label class="form-label">Current Password</label>
+        {{ form.current_password }}
+        {% if form.current_password.errors %}<div style="color: var(--cv-primary); font-size: 0.8rem;">{{ form.current_password.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">New Password</label>
+        {{ form.new_password }}
+        {% if form.new_password.errors %}<div style="color: var(--cv-primary); font-size: 0.8rem;">{{ form.new_password.errors.0 }}</div>{% endif %}
+      </div>
+
+      <div class="form-group">
+        <label class="form-label">Confirm New Password</label>
+        {{ form.confirm_new_password }}
+        {% if form.confirm_new_password.errors %}<div style="color: var(--cv-primary); font-size: 0.8rem;">{{ form.confirm_new_password.errors.0 }}</div>{% endif %}
+      </div>
+
+      <button type="submit" class="btn btn-primary" style="margin-top: 1rem;">Update Password</button>
+    </form>
+  </div>
+
+  <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-lg); padding: 2.5rem;">
+    <h3 style="margin-bottom: 1rem;">Recent Security Events</h3>
+    {% for log in security_logs %}
+      <div style="padding: 0.75rem 0; border-bottom: 1px solid var(--cv-border); font-size: 0.875rem;">
+        <div style="font-weight: 600; color: #fff;">{{ log.event_type }}</div>
+        <div style="color: var(--cv-text-muted);">{{ log.description }} • {{ log.created_at|date:"M d, Y H:i" }}</div>
+      </div>
+    {% empty %}
+      <p style="font-size: 0.85rem;">No security events recorded.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

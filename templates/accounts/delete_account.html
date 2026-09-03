@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Delete CineVerse Account{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 650px; padding-top: 3rem;">
+  <div style="background: var(--cv-bg-surface); border: 1px solid rgba(229, 9, 20, 0.4); border-radius: var(--cv-radius-lg); padding: 2.5rem;">
+    <h2 style="color: var(--cv-primary); margin-bottom: 1rem;">Delete CineVerse Account</h2>
+    <p style="margin-bottom: 1.5rem;">Warning: Deleting your account will immediately cancel your active subscriptions, remove your watch history, watchlist, and personalized recommendations. This action cannot be reversed.</p>
+    <form method="post">
+      {% csrf_token %}
+      <div class="form-group">
+        <label class="form-label">Type your password to confirm termination</label>
+        <input type="password" name="confirm_password" class="form-input" required>
+      </div>
+      <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+        <button type="submit" class="btn btn-primary" style="background: #990000;">Permanently Delete Account</button>
+        <a href="{% url 'accounts:security' %}" class="btn btn-secondary">Cancel</a>
+      </div>
+    </form>
+  </div>
+</div>
+{% endblock %}

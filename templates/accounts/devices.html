@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %}Registered Devices — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 900px; padding-top: 2rem;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+    <div>
+      <h2>Manage Streaming Devices</h2>
+      <p>Authorized TVs, Mobile Phones, and Browsers associated with your CineVerse account.</p>
+    </div>
+    <span class="badge badge-4k">{{ devices|length }} / {{ user.max_active_streams }} Streams</span>
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 1rem;">
+    {% for dev in devices %}
+      <div style="display: flex; justify-content: space-between; align-items: center; background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.25rem 1.75rem;">
+        <div style="display: flex; align-items: center; gap: 1rem;">
+          <span style="font-size: 1.75rem;">{% if dev.device_type == 'Mobile' %}📱{% elif dev.device_type == 'SmartTV' %}📺{% elif dev.device_type == 'Tablet' %}📟{% else %}💻{% endif %}</span>
+          <div>
+            <div style="font-weight: 700; color: #fff;">{{ dev.device_name }}</div>
+            <div style="font-size: 0.8rem; color: var(--cv-text-muted);">Type: {{ dev.device_type }} • Last active: {{ dev.last_used_at|timesince }} ago • IP: {{ dev.ip_address }}</div>
+          </div>
+        </div>
+        <form method="post" action="{% url 'accounts:device_revoke' dev.pk %}">
+          {% csrf_token %}
+          <button type="submit" class="btn btn-outline btn-sm" style="color: #FF5E62; border-color: rgba(255, 94, 98, 0.4);">Revoke Access</button>
+        </form>
+      </div>
+    {% empty %}
+      <div style="text-align: center; padding: 3rem; background: var(--cv-bg-surface); border-radius: var(--cv-radius-md); color: var(--cv-text-muted);">
+        No active devices recorded yet.
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

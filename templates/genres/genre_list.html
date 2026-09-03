@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}Explore Genres — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 2rem;">
+  <div style="margin-bottom: 2.5rem;">
+    <h1>Explore All Genres</h1>
+    <p>Discover movies and series tailored to every mood, theme, and cinematic universe.</p>
+  </div>
+
+  <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));">
+    {% for genre in genres %}
+      <a href="{{ genre.get_absolute_url }}" style="display: block; position: relative; border-radius: var(--cv-radius-md); overflow: hidden; background: linear-gradient(135deg, #161922, #1f2330); border: 1px solid var(--cv-border); height: 160px; padding: 1.5rem; transition: var(--cv-transition);" onmouseover="this.style.borderColor='var(--cv-primary)'; this.style.transform='translateY(-4px)';" onmouseout="this.style.borderColor='var(--cv-border)'; this.style.transform='none';">
+        <h3 style="margin-bottom: 0.5rem;">{{ genre.name }}</h3>
+        <p style="font-size: 0.85rem; color: var(--cv-text-muted);">{{ genre.description|truncatewords:12|default:"Explore top rated films and shows." }}</p>
+      </a>
+    {% empty %}
+      <p>No genres configured yet.</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

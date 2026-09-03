@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}Verify Email Address — CineVerse{% endblock %}
+
+{% block content %}
+<div class="auth-wrapper">
+  <div class="auth-card" style="text-align: center;">
+    <div style="font-size: 3rem; margin-bottom: 1rem;">✉️</div>
+    <h2 style="margin-bottom: 0.75rem;">Verify Your Email Address</h2>
+    <p style="margin-bottom: 1.5rem;">We have dispatched an activation link to <strong>{{ user.email }}</strong>. Please check your inbox or spam folder to complete registration.</p>
+    <a href="{% url 'accounts:profile' %}" class="btn btn-primary" style="width: 100%;">Continue to Profile</a>
+  </div>
+</div>
+{% endblock %}

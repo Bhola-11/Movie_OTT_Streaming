@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}{{ person.full_name }} — Filmography & Bio{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 1100px; padding-top: 2rem;">
+  <div style="display: flex; gap: 2.5rem; background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-lg); padding: 2.5rem; margin-bottom: 3rem;">
+    <img src="https://api.dicebear.com/7.x/initials/svg?seed={{ person.full_name }}&backgroundColor=1f2330" style="width: 140px; height: 140px; border-radius: var(--cv-radius-full); border: 3px solid var(--cv-primary);">
+    <div>
+      <h1>{{ person.full_name }}</h1>
+      <div style="font-size: 1rem; color: var(--cv-primary); font-weight: 600; margin-bottom: 0.75rem;">{{ person.primary_profession.name|default:"Actor & Director" }}</div>
+      <p style="line-height: 1.7; margin-bottom: 1.25rem;">{{ person.biography|default:"Biography and complete filmography available on CineVerse." }}</p>
+      {% if person.birth_date %}
+        <div style="font-size: 0.875rem; color: var(--cv-text-muted);">Born: {{ person.birth_date }} in {{ person.place_of_birth|default:"Unknown" }}</div>
+      {% endif %}
+    </div>
+  </div>
+
+  <h2>Filmography</h2>
+  <div class="card-grid">
+    <!-- Populated by related movies in Phase 2 -->
+    <div style="grid-column: 1 / -1; padding: 2rem; background: var(--cv-bg-surface); border-radius: var(--cv-radius-md); text-align: center; color: var(--cv-text-muted);">
+      Complete filmography listings will appear here.
+    </div>
+  </div>
+</div>
+{% endblock %}
