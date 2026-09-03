@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% block title %}My Watchlist — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 2rem;">
+  <div style="margin-bottom: 2.5rem;">
+    <h1>My Watchlist</h1>
+    <p>Titles you've saved to stream later on CineVerse.</p>
+  </div>
+
+  <div class="card-grid">
+    {% for item in items %}
+      <a href="{{ item.content_url }}" class="movie-card">
+        <img src="{{ item.content_poster }}" alt="{{ item.content_title }}" class="movie-card-poster">
+        <div class="movie-card-overlay">
+          <div class="movie-card-title">{{ item.content_title }}</div>
+          <div class="movie-card-meta">Added {{ item.added_at|timesince }} ago</div>
+        </div>
+      </a>
+    {% empty %}
+      <div style="grid-column: 1 / -1; padding: 4rem; text-align: center; background: var(--cv-bg-surface); border-radius: var(--cv-radius-md); color: var(--cv-text-muted);">
+        Your watchlist is empty. Add titles while browsing movies and TV shows!
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% block title %}My Favorite Titles — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 2rem;">
+  <div style="margin-bottom: 2.5rem;">
+    <h1>Liked & Favorite Titles</h1>
+    <p>Titles you have given a thumbs up or starred.</p>
+  </div>
+
+  <div class="card-grid">
+    {% for fav in favorites %}
+      <a href="{% if fav.movie %}{{ fav.movie.get_absolute_url }}{% else %}{{ fav.series.get_absolute_url }}{% endif %}" class="movie-card">
+        <img src="{% if fav.movie %}{{ fav.movie.poster_url }}{% else %}{{ fav.series.poster_url }}{% endif %}" class="movie-card-poster">
+        <div class="movie-card-overlay">
+          <div class="movie-card-title">{% if fav.movie %}{{ fav.movie.title }}{% else %}{{ fav.series.title }}{% endif %}</div>
+        </div>
+      </a>
+    {% empty %}
+      <div style="grid-column: 1 / -1; padding: 4rem; text-align: center; background: var(--cv-bg-surface); border-radius: var(--cv-radius-md); color: var(--cv-text-muted);">
+        No favorites recorded yet.
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

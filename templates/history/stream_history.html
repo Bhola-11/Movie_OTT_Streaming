@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+{% block title %}Watch History — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 1000px; padding-top: 2rem;">
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 2rem;">
+    <div>
+      <h1>Watch History</h1>
+      <p>Resume where you left off or review past watched movies and series.</p>
+    </div>
+    {% if history_records %}
+      <form method="post" action="{% url 'history:clear' %}" onsubmit="return confirm('Clear your entire watch history?');">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-outline btn-sm" style="color: #FF5E62; border-color: rgba(255,94,98,0.4);">
+          Clear All History
+        </button>
+      </form>
+    {% endif %}
+  </div>
+
+  <div style="display: flex; flex-direction: column; gap: 1.25rem;">
+    {% for record in history_records %}
+      <div style="display: flex; gap: 1.5rem; background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.25rem; align-items: center;">
+        <div style="position: relative; width: 180px; aspect-ratio: 16/9; border-radius: var(--cv-radius-sm); overflow: hidden; flex-shrink: 0;">
+          <img src="{{ record.target_thumbnail }}" alt="{{ record.target_title }}" style="width: 100%; height: 100%; object-fit: cover;">
+          <div style="position: absolute; bottom: 0; left: 0; right: 0; height: 4px; background: rgba(255,255,255,0.2);">
+            <div style="height: 100%; width: {{ record.percentage_watched }}%; background: var(--cv-primary);"></div>
+          </div>
+        </div>
+
+        <div style="flex: 1;">
+          <h4 style="font-size: 1.1rem; margin-bottom: 0.3rem;">{{ record.target_title }}</h4>
+          <div style="font-size: 0.825rem; color: var(--cv-text-muted); margin-bottom: 0.75rem;">
+            Watched {{ record.percentage_watched|floatformat:0 }}% • {{ record.last_watched_at|timesince }} ago • on {{ record.device_type }}
+          </div>
+          <a href="{{ record.resume_url }}" class="btn btn-primary btn-sm">
+            <span>▶</span> Resume Watching
+          </a>
+        </div>
+      </div>
+    {% empty %}
+      <div style="padding: 4rem; text-align: center; background: var(--cv-bg-surface); border-radius: var(--cv-radius-md); color: var(--cv-text-muted);">
+        You haven't watched any titles yet. Start exploring movies or series!
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
