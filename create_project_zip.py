@@ -5,19 +5,20 @@ def make_zip(output_filename='CineVerse_Movie_OTT_Streaming.zip'):
     root_dir = os.path.dirname(os.path.abspath(__file__))
     zip_path = os.path.join(root_dir, output_filename)
     
+    # Exclude temporary cache folders and artifacts, but KEEP .git!
     ignore_dirs = {
-        '.git', '__pycache__', '.pytest_cache', '.idea', '.vscode', 
-        'venv', '.venv', 'env', 'node_modules'
+        '__pycache__', '.pytest_cache', '.idea', '.vscode', 
+        'venv', '.venv', 'env', 'node_modules', 'staticfiles'
     }
     ignore_extensions = {'.pyc', '.pyo', '.pyd'}
 
-    print(f"Creating archive: {zip_path} ...")
+    print(f"Creating archive with .git included: {zip_path} ...")
     file_count = 0
 
     with zipfile.ZipFile(zip_path, 'w', zipfile.ZIP_DEFLATED) as zipf:
         for root, dirs, files in os.walk(root_dir):
-            # Prune ignored directories
-            dirs[:] = [d for d in dirs if d not in ignore_dirs and not d.startswith('.')]
+            # Prune ignored directories (allow .git, prune others)
+            dirs[:] = [d for d in dirs if d not in ignore_dirs and (d == '.git' or not d.startswith('.'))]
             
             for file in files:
                 if file == output_filename:
@@ -33,7 +34,7 @@ def make_zip(output_filename='CineVerse_Movie_OTT_Streaming.zip'):
                 file_count += 1
 
     size_mb = os.path.getsize(zip_path) / (1024 * 1024)
-    print(f"Successfully created {output_filename} ({size_mb:.2f} MB, {file_count} files included).")
+    print(f"Successfully created {output_filename} ({size_mb:.2f} MB, {file_count} files included, .git included).")
 
 if __name__ == '__main__':
     make_zip()

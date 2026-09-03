@@ -1,0 +1,49 @@
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="brand-logo" style="margin-bottom: 1rem;">
+          <span class="accent">CINE</span>VERSE
+        </div>
+        <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+          Experience ultra-high-definition streaming across all your devices. Watch blockbuster movies, critically acclaimed series, and award-winning originals.
+        </p>
+        <div style="display: flex; gap: 0.75rem;">
+          <a href="#" class="btn btn-icon btn-secondary">🎬</a>
+          <a href="#" class="btn btn-icon btn-secondary">📺</a>
+          <a href="#" class="btn btn-icon btn-secondary">🍿</a>
+        </div>
+      </div>
+      <div>
+        <h4 class="footer-title">Browse</h4>
+        <ul class="footer-links">
+          <li><a href="{% url 'movies:browse' %}" class="footer-link">Featured Movies</a></li>
+          <li><a href="{% url 'series:browse' %}" class="footer-link">Popular TV Shows</a></li>
+          <li><a href="{% url 'genres:list' %}" class="footer-link">Browse Genres</a></li>
+          <li><a href="{% url 'people:list' %}" class="footer-link">Cast & Directors</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Membership</h4>
+        <ul class="footer-links">
+          <li><a href="{% url 'subscriptions:plans' %}" class="footer-link">Plans & Pricing</a></li>
+          <li><a href="{% url 'accounts:devices' %}" class="footer-link">Supported Devices</a></li>
+          <li><a href="{% url 'accounts:security' %}" class="footer-link">Account Security</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 class="footer-title">Legal & Help</h4>
+        <ul class="footer-links">
+          <li><a href="#" class="footer-link">Terms of Service</a></li>
+          <li><a href="#" class="footer-link">Privacy Policy</a></li>
+          <li><a href="#" class="footer-link">Content Advisory</a></li>
+          <li><a href="#" class="footer-link">Help Center</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© {{ CURRENT_YEAR }} CineVerse Media Inc. All rights reserved.</div>
+      <div>Engineered with Django MVT Architecture • 50,000+ Production LOC</div>
+    </div>
+  </div>
+</footer>

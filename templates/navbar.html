@@ -1,0 +1,68 @@
+{% load static %}
+<nav class="navbar">
+  <div class="container navbar-inner">
+    <!-- Brand Logo -->
+    <a href="{% url 'movies:browse' %}" class="brand-logo">
+      <span class="accent">CINE</span>VERSE
+      <span class="brand-badge">OTT</span>
+    </a>
+
+    <!-- Primary Navigation Links -->
+    <ul class="nav-menu">
+      <li><a href="{% url 'movies:browse' %}" class="nav-link">Movies</a></li>
+      <li><a href="{% url 'series:browse' %}" class="nav-link">TV Shows</a></li>
+      <li><a href="{% url 'genres:list' %}" class="nav-link">Genres</a></li>
+      <li><a href="{% url 'people:list' %}" class="nav-link">Stars</a></li>
+      <li><a href="{% url 'watchlist:my_list' %}" class="nav-link">My List</a></li>
+      <li><a href="{% url 'subscriptions:plans' %}" class="nav-link" style="color: var(--cv-gold); font-weight: 700;">VIP Plans</a></li>
+    </ul>
+
+    <!-- Action Bar & User Menu -->
+    <div class="nav-actions">
+      <!-- Live Search -->
+      <div class="search-container">
+        <span class="search-icon">🔍</span>
+        <input type="text" class="search-input" placeholder="Search movies, series, stars...">
+        <div class="search-results-dropdown"></div>
+      </div>
+
+      {% if user.is_authenticated %}
+        <!-- Notification Bell -->
+        <a href="{% url 'notifications:inbox' %}" class="btn btn-icon btn-secondary" title="Notifications" style="position: relative;">
+          🔔
+          {% if unread_notifications_count > 0 %}
+            <span style="position: absolute; top: -4px; right: -4px; width: 10px; height: 10px; background: var(--cv-primary); border-radius: 50%;"></span>
+          {% endif %}
+        </a>
+
+        <!-- User Dropdown Menu -->
+        <div class="user-dropdown">
+          <button class="user-avatar-btn" type="button">
+            <img src="https://api.dicebear.com/7.x/bottts/svg?seed={{ user.email }}&backgroundColor=14161d" alt="Avatar" class="avatar-img">
+          </button>
+          <div class="dropdown-menu">
+            <div style="padding: 0.75rem; border-bottom: 1px solid var(--cv-border);">
+              <div style="font-weight: 700; color: #fff;">{{ user.full_name }}</div>
+              <div style="font-size: 0.75rem; color: var(--cv-text-muted);">{{ user.email }}</div>
+            </div>
+            <a href="{% url 'accounts:profile' %}" class="dropdown-item">👤 Account Profile</a>
+            <a href="{% url 'watchlist:my_list' %}" class="dropdown-item">📑 My Watchlist</a>
+            <a href="{% url 'history:stream_history' %}" class="dropdown-item">🕒 Watch History</a>
+            <a href="{% url 'accounts:preferences' %}" class="dropdown-item">⚙️ Playback Settings</a>
+            <a href="{% url 'subscriptions:my_subscription' %}" class="dropdown-item">💳 Subscriptions</a>
+            {% if user.is_staff %}
+              <div class="dropdown-divider"></div>
+              <a href="/admin/" class="dropdown-item" style="color: var(--cv-primary);">🛡️ CineVerse Admin</a>
+              <a href="{% url 'analytics:dashboard' %}" class="dropdown-item" style="color: var(--cv-accent);">📊 Analytics Dashboard</a>
+            {% endif %}
+            <div class="dropdown-divider"></div>
+            <a href="{% url 'accounts:logout' %}" class="dropdown-item" style="color: #FF5E62;">🚪 Sign Out</a>
+          </div>
+        </div>
+      {% else %}
+        <a href="{% url 'accounts:login' %}" class="btn btn-secondary btn-sm">Sign In</a>
+        <a href="{% url 'accounts:register' %}" class="btn btn-primary btn-sm">Start Free Trial</a>
+      {% endif %}
+    </div>
+  </div>
+</nav>
