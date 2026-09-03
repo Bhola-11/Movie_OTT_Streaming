@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% block title %}{{ movie.title }} ({{ movie.release_year }}) — CineVerse Stream{% endblock %}
+
+{% block content %}
+<div style="position: relative; min-height: 70vh; background: url('{{ movie.backdrop_url }}') center/cover no-repeat; display: flex; align-items: flex-end; padding-bottom: 4rem; margin-top: -4.75rem;">
+  <div style="position: absolute; inset: 0; background: linear-gradient(0deg, #08090C 0%, rgba(8,9,12,0.6) 60%, rgba(8,9,12,0.9) 100%);"></div>
+
+  <div class="container" style="position: relative; z-index: 10; display: flex; gap: 3rem; align-items: flex-end;">
+    <img src="{{ movie.poster_url }}" alt="{{ movie.title }}" style="width: 250px; border-radius: var(--cv-radius-md); box-shadow: 0 20px 40px rgba(0,0,0,0.9); border: 1px solid var(--cv-border); flex-shrink: 0;">
+    <div>
+      <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem;">
+        <span class="badge badge-4k">{{ movie.resolution }}</span>
+        <span class="badge badge-viewer">{{ movie.content_rating }}</span>
+        <span class="badge" style="background: rgba(255,255,255,0.1);">{{ movie.formatted_duration }}</span>
+        <span class="badge" style="background: rgba(255,255,255,0.1);">{{ movie.audio_format }}</span>
+        <span style="color: var(--cv-gold); font-weight: 700; margin-left: 0.5rem;">★ {{ movie.average_rating }}/10</span>
+      </div>
+      <h1 style="font-size: 3rem; margin-bottom: 0.5rem;">{{ movie.title }}</h1>
+      {% if movie.tagline %}
+        <p style="font-style: italic; color: #CCD2E3; font-size: 1.1rem; margin-bottom: 1.25rem;">"{{ movie.tagline }}"</p>
+      {% endif %}
+      <p style="max-width: 800px; font-size: 1.05rem; line-height: 1.7; margin-bottom: 2rem;">{{ movie.synopsis }}</p>
+
+      <div style="display: flex; gap: 1rem; align-items: center;">
+        <a href="{% url 'player:movie_player' movie.slug %}" class="btn btn-primary btn-lg">
+          <span>▶</span> Watch Now
+        </a>
+        <button class="btn btn-secondary btn-lg" onclick="alert('Added to your watchlist!')">
+          <span>+</span> Add to Watchlist
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container" style="margin-top: 3.5rem;">
+  <div style="display: grid; grid-template-columns: 2.5fr 1fr; gap: 3rem;">
+    <div>
+      <!-- Cast Members Gallery -->
+      <h3 style="margin-bottom: 1.5rem;">Top Cast & Stars</h3>
+      <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 1.25rem; margin-bottom: 3.5rem;">
+        {% for cast in cast_list %}
+          <a href="{{ cast.person.get_absolute_url }}" style="text-align: center; text-decoration: none;">
+            <img src="https://api.dicebear.com/7.x/initials/svg?seed={{ cast.person.full_name }}&backgroundColor=1f2330" style="width: 75px; height: 75px; border-radius: 50%; margin-bottom: 0.5rem; border: 2px solid var(--cv-border);">
+            <div style="font-weight: 600; font-size: 0.85rem; color: #fff;">{{ cast.person.full_name }}</div>
+            <div style="font-size: 0.75rem; color: var(--cv-text-muted);">{{ cast.character_name }}</div>
+          </a>
+        {% empty %}
+          <p style="color: var(--cv-text-muted);">Cast information being verified.</p>
+        {% endfor %}
+      </div>
+
+      <!-- Related Titles -->
+      <h3 style="margin-bottom: 1.5rem;">More Like This</h3>
+      <div class="card-grid" style="grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));">
+        {% for rel in related_movies %}
+          <a href="{{ rel.get_absolute_url }}" class="movie-card">
+            <img src="{{ rel.poster_url }}" alt="{{ rel.title }}" class="movie-card-poster">
+            <div class="movie-card-overlay">
+              <div class="movie-card-title">{{ rel.title }}</div>
+              <div class="movie-card-meta">★ {{ rel.average_rating }}</div>
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <!-- Technical Specs & Metadata Sidebar -->
+    <div>
+      <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); padding: 1.75rem;">
+        <h4 style="margin-bottom: 1.25rem;">Audio & Streaming Specs</h4>
+        <div style="display: flex; flex-direction: column; gap: 1rem; font-size: 0.9rem;">
+          <div>
+            <div style="color: var(--cv-text-muted);">Audio Channels:</div>
+            <div style="font-weight: 600; color: #fff;">{{ movie.audio_format }}</div>
+          </div>
+          <div>
+            <div style="color: var(--cv-text-muted);">Video Stream Quality:</div>
+            <div style="font-weight: 600; color: #fff;">{{ movie.get_resolution_display }}</div>
+          </div>
+          <div>
+            <div style="color: var(--cv-text-muted);">Aspect Ratio:</div>
+            <div style="font-weight: 600; color: #fff;">{{ movie.aspect_ratio }}</div>
+          </div>
+          <div>
+            <div style="color: var(--cv-text-muted);">Available Subtitles:</div>
+            <div style="font-weight: 600; color: #fff;">
+              {% for sub in subtitles %}
+                {{ sub.language_name }}{% if not forloop.last %}, {% endif %}
+              {% empty %}
+                English (CC), Spanish, French
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
