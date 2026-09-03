@@ -1,0 +1,58 @@
+{% extends 'base.html' %}
+{% block title %}Membership Plans & Pricing — CineVerse VIP{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 1200px; padding-top: 2rem;">
+  <div style="text-align: center; margin-bottom: 3.5rem;">
+    <span class="badge badge-vip" style="margin-bottom: 0.75rem; font-size: 0.8rem;">CHOOSE YOUR PASS</span>
+    <h1 style="font-size: 2.75rem; margin-bottom: 0.75rem;">Flexible Plans for Every Cinephile</h1>
+    <p style="max-width: 600px; margin: 0 auto; font-size: 1.05rem;">Stream ad-free in 4K HDR with spatial audio across all your favorite devices. Cancel anytime with a single click.</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
+    {% for plan in plans %}
+      <div style="background: var(--cv-bg-surface); border: 2px solid {% if plan.tier_code == 'VIP_4K' %}var(--cv-gold){% else %}var(--cv-border){% endif %}; border-radius: var(--cv-radius-lg); padding: 2.5rem 2rem; display: flex; flex-direction: column; justify-content: space-between; position: relative; transition: var(--cv-transition);" onmouseover="this.style.transform='translateY(-6px)';" onmouseout="this.style.transform='none';">
+        {% if plan.tier_code == 'VIP_4K' %}
+          <div style="position: absolute; top: -14px; left: 50%; transform: translateX(-50%); background: linear-gradient(135deg, #FFB800, #FF8A00); color: #000; font-weight: 800; font-size: 0.75rem; padding: 0.25rem 1rem; border-radius: var(--cv-radius-full); letter-spacing: 0.05em;">
+            MOST POPULAR • 4K VIP
+          </div>
+        {% endif %}
+
+        <div>
+          <h3 style="font-size: 1.5rem; margin-bottom: 0.5rem;">{{ plan.name }}</h3>
+          <p style="font-size: 0.85rem; margin-bottom: 1.75rem; min-height: 40px;">{{ plan.description }}</p>
+
+          <div style="margin-bottom: 2rem;">
+            <span style="font-size: 3rem; font-weight: 900; font-family: var(--cv-font-display); color: #fff;">${{ plan.price_monthly }}</span>
+            <span style="color: var(--cv-text-muted); font-size: 0.9rem;">/month</span>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 0.85rem; font-size: 0.9rem; border-top: 1px solid var(--cv-border); padding-top: 1.5rem;">
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+              <span>✓</span> Max Resolution: <strong style="color: #fff;">{{ plan.max_resolution }}</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+              <span>✓</span> Concurrent Streams: <strong style="color: #fff;">{{ plan.max_screens }} Screens</strong>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+              <span>{% if plan.has_dolby_atmos %}✓{% else %}✕{% endif %}</span> Dolby Atmos Spatial Audio
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+              <span>{% if plan.allows_offline_downloads %}✓{% else %}✕{% endif %}</span> Offline Mobile Downloads
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.6rem;">
+              <span>{% if plan.ad_free %}✓{% else %}✕{% endif %}</span> 100% Ad-Free Cinema
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 2.5rem;">
+          <a href="{% url 'payments:checkout' %}?plan={{ plan.pk }}&cycle=MONTHLY" class="btn {% if plan.tier_code == 'VIP_4K' %}btn-gold{% else %}btn-primary{% endif %}" style="width: 100%;">
+            Get {{ plan.name }}
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}

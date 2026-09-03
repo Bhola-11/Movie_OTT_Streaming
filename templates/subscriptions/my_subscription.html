@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% block title %}My Subscription — CineVerse{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 900px; padding-top: 2rem;">
+  <div style="margin-bottom: 2.5rem;">
+    <h1>My Subscription & Billing</h1>
+    <p>View your active streaming plan and billing statements.</p>
+  </div>
+
+  {% if subscription %}
+    <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-lg); padding: 2.5rem; margin-bottom: 2.5rem;">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 1.5rem;">
+        <div>
+          <span class="badge badge-vip" style="margin-bottom: 0.5rem;">ACTIVE MEMBERSHIP</span>
+          <h2>{{ subscription.plan.name }}</h2>
+          <p style="font-size: 0.95rem;">${{ subscription.plan.price_monthly }}/mo • Billed {{ subscription.billing_cycle }}</p>
+        </div>
+        <div style="text-align: right;">
+          <div style="font-size: 0.85rem; color: var(--cv-text-muted);">Current Period Ends</div>
+          <div style="font-weight: 700; color: #fff; font-size: 1.1rem;">{{ subscription.expires_at|date:"F d, Y" }}</div>
+        </div>
+      </div>
+
+      <div style="display: flex; gap: 1rem; border-top: 1px solid var(--cv-border); padding-top: 1.5rem;">
+        <a href="{% url 'subscriptions:plans' %}" class="btn btn-secondary btn-sm">Change Plan Tier</a>
+        {% if subscription.auto_renew %}
+          <form method="post" action="{% url 'subscriptions:cancel' %}" onsubmit="return confirm('Cancel auto-renew?');">
+            {% csrf_token %}
+            <button type="submit" class="btn btn-outline btn-sm" style="color: #FF5E62; border-color: rgba(255,94,98,0.4);">Cancel Renewal</button>
+          </form>
+        {% endif %}
+      </div>
+    </div>
+  {% else %}
+    <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-lg); padding: 3rem; text-align: center; margin-bottom: 2.5rem;">
+      <h3 style="margin-bottom: 0.75rem;">No Active Subscription Found</h3>
+      <p style="margin-bottom: 1.5rem;">Subscribe to unlock unlimited 4K streaming and downloads.</p>
+      <a href="{% url 'subscriptions:plans' %}" class="btn btn-primary">Browse VIP Plans</a>
+    </div>
+  {% endif %}
+
+  <!-- Invoices History -->
+  <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.25rem;">
+    <h3>Billing Invoices</h3>
+    <a href="{% url 'payments:invoice_list' %}" style="font-size: 0.85rem; color: var(--cv-primary);">View All Invoices ›</a>
+  </div>
+
+  <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-md); overflow: hidden;">
+    <table style="width: 100%; border-collapse: collapse; font-size: 0.9rem;">
+      <thead>
+        <tr style="background: rgba(255,255,255,0.03); border-bottom: 1px solid var(--cv-border); text-align: left;">
+          <th style="padding: 1rem;">Invoice Number</th>
+          <th style="padding: 1rem;">Date</th>
+          <th style="padding: 1rem;">Amount</th>
+          <th style="padding: 1rem; text-align: right;">PDF Statement</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for inv in recent_invoices %}
+          <tr style="border-bottom: 1px solid var(--cv-border);">
+            <td style="padding: 1rem; font-weight: 600; color: #fff;">{{ inv.invoice_number }}</td>
+            <td style="padding: 1rem; color: var(--cv-text-muted);">{{ inv.issued_at|date:"M d, Y" }}</td>
+            <td style="padding: 1rem; color: #fff;">${{ inv.total_amount }}</td>
+            <td style="padding: 1rem; text-align: right;">
+              <a href="{{ inv.get_absolute_url }}" class="btn btn-outline btn-sm" style="font-size: 0.75rem;">📥 Download PDF</a>
+            </td>
+          </tr>
+        {% empty %}
+          <tr>
+            <td colspan="4" style="padding: 2rem; text-align: center; color: var(--cv-text-muted);">No invoices generated yet.</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}

@@ -1,0 +1,75 @@
+{% extends 'base.html' %}
+{% block title %}Checkout — CineVerse VIP Subscription{% endblock %}
+
+{% block content %}
+<div class="container" style="max-width: 800px; padding-top: 2rem;">
+  <div style="margin-bottom: 2rem;">
+    <h1>Confirm Your Subscription</h1>
+    <p>Complete checkout to unlock high-definition streaming instantly.</p>
+  </div>
+
+  <div style="display: grid; grid-template-columns: 1.4fr 1fr; gap: 2rem;">
+    <!-- Payment Form -->
+    <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-lg); padding: 2rem;">
+      <h3 style="margin-bottom: 1.5rem;">Payment Method</h3>
+
+      <form method="post">
+        {% csrf_token %}
+        <input type="hidden" name="plan_id" value="{{ plan.pk }}">
+        <input type="hidden" name="billing_cycle" value="{{ billing_cycle }}">
+
+        <div class="form-group">
+          <label class="form-label">Cardholder Full Name</label>
+          <input type="text" class="form-input" value="{{ user.full_name }}" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label">Card Number</label>
+          <input type="text" class="form-input" placeholder="4242 •••• •••• 4242" value="4242 4242 4242 4242" required>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+          <div class="form-group">
+            <label class="form-label">Expiry</label>
+            <input type="text" class="form-input" placeholder="MM/YY" value="12/28" required>
+          </div>
+          <div class="form-group">
+            <label class="form-label">CVV / CVC</label>
+            <input type="password" class="form-input" placeholder="123" value="789" required>
+          </div>
+        </div>
+
+        <div style="background: rgba(0, 223, 154, 0.08); border: 1px solid rgba(0, 223, 154, 0.3); border-radius: var(--cv-radius-sm); padding: 0.75rem; margin-bottom: 1.5rem; font-size: 0.8rem; color: var(--cv-accent);">
+          🔒 256-bit SSL encrypted sandbox transaction.
+        </div>
+
+        <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.85rem; font-size: 1rem;">
+          Authorize & Pay ${{ plan.price_monthly }}
+        </button>
+      </form>
+    </div>
+
+    <!-- Order Summary -->
+    <div>
+      <div style="background: var(--cv-bg-surface); border: 1px solid var(--cv-border); border-radius: var(--cv-radius-lg); padding: 1.75rem;">
+        <h4 style="margin-bottom: 1.25rem;">Order Summary</h4>
+
+        <div style="display: flex; justify-content: space-between; margin-bottom: 0.75rem; font-size: 0.9rem;">
+          <span style="color: var(--cv-text-muted);">{{ plan.name }} (Monthly)</span>
+          <span style="color: #fff; font-weight: 600;">${{ plan.price_monthly }}</span>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; margin-bottom: 1rem; font-size: 0.9rem;">
+          <span style="color: var(--cv-text-muted);">Estimated Tax</span>
+          <span style="color: #fff; font-weight: 600;">$0.00</span>
+        </div>
+
+        <div style="display: flex; justify-content: space-between; border-top: 1px solid var(--cv-border); padding-top: 1rem; font-size: 1.15rem; font-weight: 700; color: #fff;">
+          <span>Total Today:</span>
+          <span style="color: var(--cv-gold);">${{ plan.price_monthly }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}
